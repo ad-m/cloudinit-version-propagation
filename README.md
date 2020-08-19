@@ -1,10 +1,10 @@
-# Urlwatch Template Repository
+# Cloud-init version propagation
 
-Repository for easy setup tracking changes of any remote URL.
+Repository for easy tracking changes of propagation of Cloud-init across multiple platform.
+
+See details at Repology: https://repology.org/project/cloud-init/versions
 
 ## How to use
 
-1. Generate new repository from this repository, see "[Creating a repository from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)"
-2. Update URL location and format in `Makefile`.
-3. Update schedule in `.github/workflows/update.yml`.
-4. Watch for new updates.
+1. See changes within repository: https://github.com/ad-m/cloudinit-version-propagation/commits
+2. Watch repository for new updates: https://github.com/ad-m/cloudinit-version-propagation/watchers
