@@ -1,50 +1,9 @@
-- repo: manjaro_unstable
-  subrepo: community
-  srcname: cloud-init
-  binname: cloud-init
-  visiblename: cloud-init
-  version: '20.2'
-  licenses:
-    - GPL3
-  www:
-    - https://cloud-init.io/
-  summary: The standard for customising cloud instances
-  status: newest
-  origversion: 20.2-1
-- repo: parabola
-  subrepo: community
-  srcname: cloud-init
-  binname: cloud-init
-  visiblename: cloud-init
-  version: '20.2'
-  licenses:
-    - GPL3
-  www:
-    - https://cloud-init.io/
-  summary: The standard for customising cloud instances
-  status: newest
-  origversion: 20.2-1
-- repo: alpine_edge
-  subrepo: testing
-  srcname: cloud-init
-  binname: cloud-init-openrc
-  visiblename: cloud-init-openrc
-  version: '20.2'
-  maintainers:
-    - dermot_bradley@yahoo.com
-  licenses:
-    - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
-  summary: Cloud instance init scripts (OpenRC init scripts)
-  status: newest
-  origversion: 20.2-r1
 - repo: alpine_edge
   subrepo: testing
   srcname: cloud-init
   binname: cloud-init-bash-completion
   visiblename: cloud-init-bash-completion
-  version: '20.2'
+  version: '20.3'
   maintainers:
     - dermot_bradley@yahoo.com
   licenses:
@@ -53,13 +12,13 @@
     - https://cloud-init.io/
   summary: Bash completions for cloud-init
   status: newest
-  origversion: 20.2-r1
+  origversion: 20.3-r0
 - repo: alpine_edge
   subrepo: testing
   srcname: cloud-init
   binname: cloud-init
   visiblename: cloud-init
-  version: '20.2'
+  version: '20.3'
   maintainers:
     - dermot_bradley@yahoo.com
   licenses:
@@ -68,13 +27,13 @@
     - https://cloud-init.io/
   summary: Cloud instance init scripts
   status: newest
-  origversion: 20.2-r1
+  origversion: 20.3-r0
 - repo: alpine_edge
   subrepo: testing
   srcname: cloud-init
   binname: cloud-init-doc
   visiblename: cloud-init-doc
-  version: '20.2'
+  version: '20.3'
   maintainers:
     - dermot_bradley@yahoo.com
   licenses:
@@ -83,7 +42,22 @@
     - https://cloud-init.io/
   summary: Cloud instance init scripts (documentation)
   status: newest
-  origversion: 20.2-r1
+  origversion: 20.3-r0
+- repo: alpine_edge
+  subrepo: testing
+  srcname: cloud-init
+  binname: cloud-init-openrc
+  visiblename: cloud-init-openrc
+  version: '20.3'
+  maintainers:
+    - dermot_bradley@yahoo.com
+  licenses:
+    - Apache-2.0 OR GPL-3.0-only
+  www:
+    - https://cloud-init.io/
+  summary: Cloud instance init scripts (OpenRC init scripts)
+  status: newest
+  origversion: 20.3-r0
 - repo: nix_stable
   name: cloud-init
   visiblename: cloud-init
@@ -119,7 +93,7 @@
   www:
     - https://cloud-init.io/
   summary: The standard for customising cloud instances
-  status: newest
+  status: outdated
   origversion: 20.2-1
 - repo: manjaro_stable
   subrepo: community
@@ -132,7 +106,7 @@
   www:
     - https://cloud-init.io/
   summary: The standard for customising cloud instances
-  status: newest
+  status: outdated
   origversion: 20.2-1
 - repo: manjaro_testing
   subrepo: community
@@ -145,7 +119,33 @@
   www:
     - https://cloud-init.io/
   summary: The standard for customising cloud instances
-  status: newest
+  status: outdated
+  origversion: 20.2-1
+- repo: manjaro_unstable
+  subrepo: community
+  srcname: cloud-init
+  binname: cloud-init
+  visiblename: cloud-init
+  version: '20.2'
+  licenses:
+    - GPL3
+  www:
+    - https://cloud-init.io/
+  summary: The standard for customising cloud instances
+  status: outdated
+  origversion: 20.2-1
+- repo: parabola
+  subrepo: community
+  srcname: cloud-init
+  binname: cloud-init
+  visiblename: cloud-init
+  version: '20.2'
+  licenses:
+    - GPL3
+  www:
+    - https://cloud-init.io/
+  summary: The standard for customising cloud instances
+  status: outdated
   origversion: 20.2-1
 - repo: freebsd
   srcname: net/cloud-init
@@ -159,7 +159,7 @@
   summary: Init scripts for use on cloud images
   categories:
     - net
-  status: newest
+  status: outdated
   origversion: '20.2_1'
 - repo: dports
   srcname: net/cloud-init
@@ -207,7 +207,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2~deb10u1
 - repo: debian_stable_backports
   subrepo: main
@@ -223,7 +223,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - misc
-  status: newest
+  status: outdated
   origversion: 20.2-2~bpo10+1
 - repo: debian_testing
   subrepo: testing/main
@@ -239,7 +239,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2
 - repo: debian_unstable
   subrepo: main
@@ -255,7 +255,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2
 - repo: deepin_unstable
   subrepo: main
@@ -323,7 +323,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2~deb10u1
 - repo: devuan_4_0
   subrepo: chimaera/main
@@ -339,7 +339,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2
 - repo: devuan_unstable
   subrepo: unstable/main
@@ -355,7 +355,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2
 - repo: kali_rolling
   subrepo: main
@@ -371,7 +371,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2
 - repo: pardus
   subrepo: main
@@ -405,7 +405,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2
 - repo: pureos_amber
   srcname: cloud-init
@@ -435,7 +435,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - misc
-  status: newest
+  status: outdated
   origversion: 20.2-2
 - repo: raspbian_oldstable
   subrepo: main
@@ -469,7 +469,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2~deb10u1
 - repo: raspbian_testing
   subrepo: main
@@ -485,7 +485,7 @@
     - https://launchpad.net/cloud-init
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-2
 - repo: ubuntu_12_04
   subrepo: precise/main
@@ -551,7 +551,7 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-45-g5f7825e2-0ubuntu1~16.04.1
 - repo: ubuntu_18_04
   subrepo: bionic/main
@@ -573,7 +573,7 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-45-g5f7825e2-0ubuntu1~18.04.1
 - repo: ubuntu_19_10
   subrepo: eoan/main
@@ -595,7 +595,7 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-45-g5f7825e2-0ubuntu1~19.10.1
 - repo: ubuntu_20_04
   subrepo: focal/main
@@ -621,13 +621,13 @@
     - https://cloud-init.io/
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-45-g5f7825e2-0ubuntu1~20.04.1
 - repo: ubuntu_20_10
   subrepo: groovy/main
   srcname: cloud-init
   visiblename: cloud-init
-  version: '20.2'
+  version: '20.3'
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
   www:
@@ -635,7 +635,7 @@
   categories:
     - admin
   status: newest
-  origversion: 20.2-94-g3d06abc2-0ubuntu1
+  origversion: 20.3-0ubuntu1
 - repo: trisquel_6_0
   subrepo: toutatis/main
   srcname: cloud-init
@@ -700,7 +700,7 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: newest
+  status: outdated
   origversion: 20.2-45-g5f7825e2-0ubuntu1~16.04.1
 - repo: funtoo_1.4
   subrepo: nokit
@@ -810,22 +810,6 @@
     - app-emulation
   status: outdated
   origversion: null
-- repo: centos_8
-  subrepo: AppStream
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.2'
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.2-6.el8
 - repo: gentoo
   srcname: app-emulation/cloud-init
   visiblename: app-emulation/cloud-init
@@ -1200,6 +1184,22 @@
   subrepo: AppStream
   srcname: cloud-init
   visiblename: cloud-init
+  version: '18.2'
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.2-6.el8
+- repo: centos_8
+  subrepo: AppStream
+  srcname: cloud-init
+  visiblename: cloud-init
   version: '18.5'
   maintainers:
     - bugs@centos.org
@@ -1404,7 +1404,7 @@
   summary: Cloud instance init scripts
   categories:
     - Networking/Other
-  status: newest
+  status: outdated
   origversion: 20.2-1.mga8
 - repo: rosa_server_7_3
   subrepo: extra/release
@@ -1921,5 +1921,5 @@
   summary: Cloud node initialization tool
   categories:
     - System/Management
-  status: newest
+  status: outdated
   origversion: 20.2-1.1

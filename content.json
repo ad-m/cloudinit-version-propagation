@@ -1,65 +1,11 @@
 [
   {
-    "repo": "manjaro_unstable",
-    "subrepo": "community",
-    "srcname": "cloud-init",
-    "binname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "licenses": [
-      "GPL3"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "The standard for customising cloud instances",
-    "status": "newest",
-    "origversion": "20.2-1"
-  },
-  {
-    "repo": "parabola",
-    "subrepo": "community",
-    "srcname": "cloud-init",
-    "binname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "licenses": [
-      "GPL3"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "The standard for customising cloud instances",
-    "status": "newest",
-    "origversion": "20.2-1"
-  },
-  {
-    "repo": "alpine_edge",
-    "subrepo": "testing",
-    "srcname": "cloud-init",
-    "binname": "cloud-init-openrc",
-    "visiblename": "cloud-init-openrc",
-    "version": "20.2",
-    "maintainers": [
-      "dermot_bradley@yahoo.com"
-    ],
-    "licenses": [
-      "Apache-2.0 OR GPL-3.0-only"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Cloud instance init scripts (OpenRC init scripts)",
-    "status": "newest",
-    "origversion": "20.2-r1"
-  },
-  {
     "repo": "alpine_edge",
     "subrepo": "testing",
     "srcname": "cloud-init",
     "binname": "cloud-init-bash-completion",
     "visiblename": "cloud-init-bash-completion",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "dermot_bradley@yahoo.com"
     ],
@@ -71,7 +17,7 @@
     ],
     "summary": "Bash completions for cloud-init",
     "status": "newest",
-    "origversion": "20.2-r1"
+    "origversion": "20.3-r0"
   },
   {
     "repo": "alpine_edge",
@@ -79,7 +25,7 @@
     "srcname": "cloud-init",
     "binname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "dermot_bradley@yahoo.com"
     ],
@@ -91,7 +37,7 @@
     ],
     "summary": "Cloud instance init scripts",
     "status": "newest",
-    "origversion": "20.2-r1"
+    "origversion": "20.3-r0"
   },
   {
     "repo": "alpine_edge",
@@ -99,7 +45,7 @@
     "srcname": "cloud-init",
     "binname": "cloud-init-doc",
     "visiblename": "cloud-init-doc",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "dermot_bradley@yahoo.com"
     ],
@@ -111,7 +57,27 @@
     ],
     "summary": "Cloud instance init scripts (documentation)",
     "status": "newest",
-    "origversion": "20.2-r1"
+    "origversion": "20.3-r0"
+  },
+  {
+    "repo": "alpine_edge",
+    "subrepo": "testing",
+    "srcname": "cloud-init",
+    "binname": "cloud-init-openrc",
+    "visiblename": "cloud-init-openrc",
+    "version": "20.3",
+    "maintainers": [
+      "dermot_bradley@yahoo.com"
+    ],
+    "licenses": [
+      "Apache-2.0 OR GPL-3.0-only"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Cloud instance init scripts (OpenRC init scripts)",
+    "status": "newest",
+    "origversion": "20.3-r0"
   },
   {
     "repo": "nix_stable",
@@ -159,7 +125,7 @@
       "https://cloud-init.io/"
     ],
     "summary": "The standard for customising cloud instances",
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-1"
   },
   {
@@ -176,7 +142,7 @@
       "https://cloud-init.io/"
     ],
     "summary": "The standard for customising cloud instances",
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-1"
   },
   {
@@ -193,7 +159,41 @@
       "https://cloud-init.io/"
     ],
     "summary": "The standard for customising cloud instances",
-    "status": "newest",
+    "status": "outdated",
+    "origversion": "20.2-1"
+  },
+  {
+    "repo": "manjaro_unstable",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "licenses": [
+      "GPL3"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "The standard for customising cloud instances",
+    "status": "outdated",
+    "origversion": "20.2-1"
+  },
+  {
+    "repo": "parabola",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "licenses": [
+      "GPL3"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "The standard for customising cloud instances",
+    "status": "outdated",
     "origversion": "20.2-1"
   },
   {
@@ -212,7 +212,7 @@
     "categories": [
       "net"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2_1"
   },
   {
@@ -275,7 +275,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2~deb10u1"
   },
   {
@@ -296,7 +296,7 @@
     "categories": [
       "misc"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2~bpo10+1"
   },
   {
@@ -317,7 +317,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2"
   },
   {
@@ -338,7 +338,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2"
   },
   {
@@ -426,7 +426,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2~deb10u1"
   },
   {
@@ -447,7 +447,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2"
   },
   {
@@ -468,7 +468,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2"
   },
   {
@@ -489,7 +489,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2"
   },
   {
@@ -533,7 +533,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2"
   },
   {
@@ -573,7 +573,7 @@
     "categories": [
       "misc"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2"
   },
   {
@@ -617,7 +617,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2~deb10u1"
   },
   {
@@ -638,7 +638,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-2"
   },
   {
@@ -728,7 +728,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-45-g5f7825e2-0ubuntu1~16.04.1"
   },
   {
@@ -758,7 +758,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-45-g5f7825e2-0ubuntu1~18.04.1"
   },
   {
@@ -788,7 +788,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-45-g5f7825e2-0ubuntu1~19.10.1"
   },
   {
@@ -824,7 +824,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-45-g5f7825e2-0ubuntu1~20.04.1"
   },
   {
@@ -832,7 +832,7 @@
     "subrepo": "groovy/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "ubuntu-devel-discuss@lists.ubuntu.com"
     ],
@@ -843,7 +843,7 @@
       "admin"
     ],
     "status": "newest",
-    "origversion": "20.2-94-g3d06abc2-0ubuntu1"
+    "origversion": "20.3-0ubuntu1"
   },
   {
     "repo": "trisquel_6_0",
@@ -932,7 +932,7 @@
     "categories": [
       "admin"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-45-g5f7825e2-0ubuntu1~16.04.1"
   },
   {
@@ -1082,28 +1082,6 @@
     ],
     "status": "outdated",
     "origversion": null
-  },
-  {
-    "repo": "centos_8",
-    "subrepo": "AppStream",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "maintainers": [
-      "bugs@centos.org"
-    ],
-    "licenses": [
-      "GPLv3"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-6.el8"
   },
   {
     "repo": "gentoo",
@@ -1617,6 +1595,28 @@
     "subrepo": "AppStream",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
+    "version": "18.2",
+    "maintainers": [
+      "bugs@centos.org"
+    ],
+    "licenses": [
+      "GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-6.el8"
+  },
+  {
+    "repo": "centos_8",
+    "subrepo": "AppStream",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
     "version": "18.5",
     "maintainers": [
       "bugs@centos.org"
@@ -1895,7 +1895,7 @@
     "categories": [
       "Networking/Other"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-1.mga8"
   },
   {
@@ -2601,7 +2601,7 @@
     "categories": [
       "System/Management"
     ],
-    "status": "newest",
+    "status": "outdated",
     "origversion": "20.2-1.1"
   }
 ]
