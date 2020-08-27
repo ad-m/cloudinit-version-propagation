@@ -843,7 +843,7 @@
       "admin"
     ],
     "status": "newest",
-    "origversion": "20.3-0ubuntu1"
+    "origversion": "20.3-2-g371b392c-0ubuntu1"
   },
   {
     "repo": "trisquel_6_0",
