@@ -623,6 +623,33 @@
     - admin
   status: outdated
   origversion: 20.2-45-g5f7825e2-0ubuntu1~20.04.1
+- repo: fedora_32
+  subrepo: release
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  licenses:
+    - ASL 2.0 or GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - Unspecified
+  status: outdated
+  origversion: 19.4-2.fc32
+- repo: ubuntu_20_04_proposed
+  subrepo: focal-proposed/main
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '20.3'
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  www:
+    - https://cloud-init.io/
+  categories:
+    - admin
+  status: newest
+  origversion: 20.3-2-g371b392c-0ubuntu1~20.04.1
 - repo: ubuntu_20_10
   subrepo: groovy/main
   srcname: cloud-init
@@ -921,6 +948,19 @@
     - app-emulation
   status: outdated
   origversion: null
+- repo: fedora_rawhide
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  licenses:
+    - ASL 2.0 or GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - Unspecified
+  status: outdated
+  origversion: 19.4-5.fc33
 - repo: liguros_21_1
   subrepo: nokit
   srcname: app-emulation/cloud-init
@@ -1323,33 +1363,6 @@
     - Unspecified
   status: outdated
   origversion: 17.1-11.fc31
-- repo: fedora_32
-  subrepo: release
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.4'
-  licenses:
-    - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - Unspecified
-  status: outdated
-  origversion: 19.4-2.fc32
-- repo: fedora_rawhide
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.4'
-  licenses:
-    - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - Unspecified
-  status: outdated
-  origversion: 19.4-5.fc33
 - repo: mageia_6
   subrepo: core/release
   srcname: cloud-init
@@ -1922,4 +1935,4 @@
   categories:
     - System/Management
   status: outdated
-  origversion: 20.2-1.1
+  origversion: 20.2-1.2
