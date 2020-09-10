@@ -1,5 +1,1037 @@
 [
   {
+    "repo": "alpine_edge",
+    "subrepo": "testing",
+    "srcname": "cloud-init",
+    "binname": "cloud-init-doc",
+    "visiblename": "cloud-init-doc",
+    "version": "20.3",
+    "maintainers": [
+      "dermot_bradley@yahoo.com"
+    ],
+    "licenses": [
+      "Apache-2.0 OR GPL-3.0-only"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Cloud instance init scripts",
+    "status": "newest",
+    "origversion": "20.3-r1"
+  },
+  {
+    "repo": "alpine_edge",
+    "subrepo": "testing",
+    "srcname": "cloud-init",
+    "binname": "cloud-init-bash-completion",
+    "visiblename": "cloud-init-bash-completion",
+    "version": "20.3",
+    "maintainers": [
+      "dermot_bradley@yahoo.com"
+    ],
+    "licenses": [
+      "Apache-2.0 OR GPL-3.0-only"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Bash completions for cloud-init",
+    "status": "newest",
+    "origversion": "20.3-r1"
+  },
+  {
+    "repo": "alpine_edge",
+    "subrepo": "testing",
+    "srcname": "cloud-init",
+    "binname": "cloud-init-openrc",
+    "visiblename": "cloud-init-openrc",
+    "version": "20.3",
+    "maintainers": [
+      "dermot_bradley@yahoo.com"
+    ],
+    "licenses": [
+      "Apache-2.0 OR GPL-3.0-only"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Cloud instance init scripts (OpenRC init scripts)",
+    "status": "newest",
+    "origversion": "20.3-r1"
+  },
+  {
+    "repo": "alpine_edge",
+    "subrepo": "testing",
+    "srcname": "cloud-init",
+    "binname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.3",
+    "maintainers": [
+      "dermot_bradley@yahoo.com"
+    ],
+    "licenses": [
+      "Apache-2.0 OR GPL-3.0-only"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Cloud instance init scripts",
+    "status": "newest",
+    "origversion": "20.3-r1"
+  },
+  {
+    "repo": "nix_stable",
+    "name": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "maintainers": [
+      "georges.dubus@compiletoi.net",
+      "nix@314.ch"
+    ],
+    "www": [
+      "https://cloudinit.readthedocs.org/"
+    ],
+    "summary": "Provides configuration and customization of cloud instance",
+    "status": "outdated",
+    "origversion": null
+  },
+  {
+    "repo": "nix_unstable",
+    "name": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "maintainers": [
+      "georges.dubus@compiletoi.net",
+      "nix@314.ch"
+    ],
+    "www": [
+      "https://cloudinit.readthedocs.org/"
+    ],
+    "summary": "Provides configuration and customization of cloud instance",
+    "status": "outdated",
+    "origversion": null
+  },
+  {
+    "repo": "arch",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "licenses": [
+      "GPL3"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "The standard for customising cloud instances",
+    "status": "outdated",
+    "origversion": "20.2-1"
+  },
+  {
+    "repo": "manjaro_stable",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "licenses": [
+      "GPL3"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "The standard for customising cloud instances",
+    "status": "outdated",
+    "origversion": "20.2-1"
+  },
+  {
+    "repo": "manjaro_testing",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "licenses": [
+      "GPL3"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "The standard for customising cloud instances",
+    "status": "outdated",
+    "origversion": "20.2-1"
+  },
+  {
+    "repo": "manjaro_unstable",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "licenses": [
+      "GPL3"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "The standard for customising cloud instances",
+    "status": "outdated",
+    "origversion": "20.2-1"
+  },
+  {
+    "repo": "parabola",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "licenses": [
+      "GPL3"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "The standard for customising cloud instances",
+    "status": "outdated",
+    "origversion": "20.2-1"
+  },
+  {
+    "repo": "freebsd",
+    "srcname": "net/cloud-init",
+    "binname": "py37-cloud-init",
+    "visiblename": "net/cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "andrey@bsdnir.info"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Init scripts for use on cloud images",
+    "categories": [
+      "net"
+    ],
+    "status": "outdated",
+    "origversion": "20.2_1"
+  },
+  {
+    "repo": "dports",
+    "srcname": "net/cloud-init",
+    "binname": "py37-cloud-init",
+    "visiblename": "net/cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "andrey@bsdnir.info"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Init scripts for use on cloud images",
+    "categories": [
+      "net"
+    ],
+    "status": "outdated",
+    "origversion": "20.2_1"
+  },
+  {
+    "repo": "debian_oldstable",
+    "subrepo": "oldstable/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "acid@debian.org",
+      "miguel@miguel.cc",
+      "plessy@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.9-2"
+  },
+  {
+    "repo": "debian_stable",
+    "subrepo": "stable/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2~deb10u1"
+  },
+  {
+    "repo": "debian_stable_backports",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "misc"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2~bpo10+1"
+  },
+  {
+    "repo": "debian_testing",
+    "subrepo": "testing/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2"
+  },
+  {
+    "repo": "debian_unstable",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2"
+  },
+  {
+    "repo": "deepin_unstable",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "acid@debian.org",
+      "nomadium@debian.org",
+      "plessy@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.9-5"
+  },
+  {
+    "repo": "devuan_1_0",
+    "subrepo": "jessie/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.6bzr976",
+    "maintainers": [
+      "plessy@debian.org",
+      "acid@debian.org",
+      "miguel@miguel.cc",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.6~bzr976-2"
+  },
+  {
+    "repo": "devuan_2_0",
+    "subrepo": "ascii/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "acid@debian.org",
+      "miguel@miguel.cc",
+      "plessy@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.9-2"
+  },
+  {
+    "repo": "devuan_3_0",
+    "subrepo": "beowulf/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2~deb10u1"
+  },
+  {
+    "repo": "devuan_4_0",
+    "subrepo": "chimaera/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2"
+  },
+  {
+    "repo": "devuan_unstable",
+    "subrepo": "unstable/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2"
+  },
+  {
+    "repo": "kali_rolling",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2"
+  },
+  {
+    "repo": "pardus",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "acid@debian.org",
+      "miguel@miguel.cc",
+      "plessy@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.9-2"
+  },
+  {
+    "repo": "parrot",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2"
+  },
+  {
+    "repo": "pureos_amber",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.3",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "plessy@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "misc"
+    ],
+    "status": "outdated",
+    "origversion": "18.3-6"
+  },
+  {
+    "repo": "pureos_landing",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "misc"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2"
+  },
+  {
+    "repo": "raspbian_oldstable",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "acid@debian.org",
+      "miguel@miguel.cc",
+      "plessy@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.9-2"
+  },
+  {
+    "repo": "raspbian_stable",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2~deb10u1"
+  },
+  {
+    "repo": "raspbian_testing",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2"
+  },
+  {
+    "repo": "ubuntu_12_04",
+    "subrepo": "precise/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.6.3",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.6.3-0ubuntu1"
+  },
+  {
+    "repo": "ubuntu_12_04",
+    "subrepo": "precise-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.6.3",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.6.3-0ubuntu1.25"
+  },
+  {
+    "repo": "ubuntu_14_04",
+    "subrepo": "trusty/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.5",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.5-0ubuntu1"
+  },
+  {
+    "repo": "ubuntu_14_04",
+    "subrepo": "trusty-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.5",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.5-0ubuntu1.23"
+  },
+  {
+    "repo": "ubuntu_16_04",
+    "subrepo": "xenial/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.7bzr1212",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "legacy",
+    "origversion": "0.7.7~bzr1212-0ubuntu1"
+  },
+  {
+    "repo": "ubuntu_16_04",
+    "subrepo": "xenial-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-45-g5f7825e2-0ubuntu1~16.04.1"
+  },
+  {
+    "repo": "ubuntu_18_04",
+    "subrepo": "bionic/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-14-g6d48d265-0ubuntu1"
+  },
+  {
+    "repo": "ubuntu_18_04",
+    "subrepo": "bionic-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-45-g5f7825e2-0ubuntu1~18.04.1"
+  },
+  {
+    "repo": "ubuntu_19_10",
+    "subrepo": "eoan/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.2",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "legacy",
+    "origversion": "19.2-36-g059d049c-0ubuntu3"
+  },
+  {
+    "repo": "ubuntu_19_10",
+    "subrepo": "eoan-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-45-g5f7825e2-0ubuntu1~19.10.1"
+  },
+  {
+    "repo": "ubuntu_20_04",
+    "subrepo": "focal/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.1",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "legacy",
+    "origversion": "20.1-10-g71af48df-0ubuntu5"
+  },
+  {
+    "repo": "ubuntu_20_04",
+    "subrepo": "focal-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-45-g5f7825e2-0ubuntu1~20.04.1"
+  },
+  {
+    "repo": "ubuntu_20_04_proposed",
+    "subrepo": "focal-proposed/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.3",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "newest",
+    "origversion": "20.3-2-g371b392c-0ubuntu1~20.04.1"
+  },
+  {
+    "repo": "ubuntu_20_10",
+    "subrepo": "groovy/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.3",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "newest",
+    "origversion": "20.3-2-g371b392c-0ubuntu1"
+  },
+  {
+    "repo": "trisquel_6_0",
+    "subrepo": "toutatis/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.6.3",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.6.3-0ubuntu1"
+  },
+  {
+    "repo": "trisquel_6_0",
+    "subrepo": "toutatis-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.6.3",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.6.3-0ubuntu1.25"
+  },
+  {
+    "repo": "trisquel_7_0",
+    "subrepo": "belenos/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.5",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.5-0ubuntu1"
+  },
+  {
+    "repo": "trisquel_7_0",
+    "subrepo": "belenos-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.5",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.5-0ubuntu1.23"
+  },
+  {
+    "repo": "trisquel_8_0",
+    "subrepo": "flidas/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.7bzr1212",
+    "maintainers": [
+      "smoser@ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "legacy",
+    "origversion": "0.7.7~bzr1212-0ubuntu1"
+  },
+  {
+    "repo": "trisquel_8_0",
+    "subrepo": "flidas-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-45-g5f7825e2-0ubuntu1~16.04.1"
+  },
+  {
+    "repo": "funtoo_1.4",
+    "subrepo": "nokit",
+    "srcname": "app-emulation/cloud-init",
+    "visiblename": "app-emulation/cloud-init",
+    "version": "17.2",
+    "maintainers": [
+      "prometheanfire@gentoo.org",
+      "eva@gentoo.org"
+    ],
+    "licenses": [
+      "GPL-3"
+    ],
+    "downloads": [
+      "https://launchpad.net/cloud-init/trunk/17.2/+download/cloud-init-17.2.tar.gz"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "summary": "cloud initialisation magic",
+    "categories": [
+      "app-emulation"
+    ],
+    "status": "legacy",
+    "origversion": null
+  },
+  {
+    "repo": "funtoo_1.4",
+    "subrepo": "nokit",
+    "srcname": "app-emulation/cloud-init",
+    "visiblename": "app-emulation/cloud-init",
+    "version": "18.4",
+    "maintainers": [
+      "prometheanfire@gentoo.org",
+      "eva@gentoo.org"
+    ],
+    "licenses": [
+      "GPL-3"
+    ],
+    "downloads": [
+      "https://launchpad.net/cloud-init/trunk/18.4/+download/cloud-init-18.4.tar.gz"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance initialisation magic",
+    "categories": [
+      "app-emulation"
+    ],
+    "status": "legacy",
+    "origversion": "18.4-r1"
+  },
+  {
+    "repo": "funtoo_1.4",
+    "subrepo": "nokit",
+    "srcname": "app-emulation/cloud-init",
+    "visiblename": "app-emulation/cloud-init",
+    "version": "18.5",
+    "maintainers": [
+      "prometheanfire@gentoo.org",
+      "eva@gentoo.org"
+    ],
+    "licenses": [
+      "GPL-3"
+    ],
+    "downloads": [
+      "https://launchpad.net/cloud-init/trunk/18.5/+download/cloud-init-18.5.tar.gz"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance initialisation magic",
+    "categories": [
+      "app-emulation"
+    ],
+    "status": "outdated",
+    "origversion": null
+  },
+  {
     "repo": "funtoo_1.4",
     "subrepo": "nokit",
     "srcname": "app-emulation/cloud-init",
@@ -280,7 +1312,7 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.20.amzn1"
+    "origversion": "0.7.6-2.21.amzn1"
   },
   {
     "repo": "amazon_1",
@@ -299,7 +1331,7 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.17.amzn1"
+    "origversion": "0.7.6-2.20.amzn1"
   },
   {
     "repo": "amazon_1",
@@ -337,51 +1369,15 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.21.amzn1"
+    "origversion": "0.7.6-2.17.amzn1"
   },
   {
     "repo": "amazon_2",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "19.3",
+    "version": "0.7.9",
     "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "19.3-3.amzn2"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.3",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "19.3-2.amzn2"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.5",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
+      "GPLv3"
     ],
     "www": [
       "http://launchpad.net/cloud-init"
@@ -391,43 +1387,7 @@
       "System Environment/Base"
     ],
     "status": "legacy",
-    "origversion": "18.5-2.amzn2"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.7"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.5"
+    "origversion": "0.7.9-4.amzn2.6"
   },
   {
     "repo": "amazon_2",
@@ -469,9 +1429,9 @@
     "repo": "amazon_2",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "0.7.9",
+    "version": "18.2",
     "licenses": [
-      "GPLv3"
+      "GPLv3 or Apache 2.0"
     ],
     "www": [
       "http://launchpad.net/cloud-init"
@@ -481,7 +1441,115 @@
       "System Environment/Base"
     ],
     "status": "legacy",
-    "origversion": "0.7.9-4.amzn2.6"
+    "origversion": "18.2-72.amzn2.0.4"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.5"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.7"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.6"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.5",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.5-2.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.3",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.3-3.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.3",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.3-2.amzn2"
   },
   {
     "repo": "centos_6",
@@ -1553,1073 +2621,5 @@
     ],
     "status": "outdated",
     "origversion": "20.2-1.2"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.6"
-  },
-  {
-    "repo": "alpine_edge",
-    "subrepo": "testing",
-    "srcname": "cloud-init",
-    "binname": "cloud-init-bash-completion",
-    "visiblename": "cloud-init-bash-completion",
-    "version": "20.3",
-    "maintainers": [
-      "dermot_bradley@yahoo.com"
-    ],
-    "licenses": [
-      "Apache-2.0 OR GPL-3.0-only"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Bash completions for cloud-init",
-    "status": "newest",
-    "origversion": "20.3-r0"
-  },
-  {
-    "repo": "alpine_edge",
-    "subrepo": "testing",
-    "srcname": "cloud-init",
-    "binname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.3",
-    "maintainers": [
-      "dermot_bradley@yahoo.com"
-    ],
-    "licenses": [
-      "Apache-2.0 OR GPL-3.0-only"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Cloud instance init scripts",
-    "status": "newest",
-    "origversion": "20.3-r0"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.4"
-  },
-  {
-    "repo": "alpine_edge",
-    "subrepo": "testing",
-    "srcname": "cloud-init",
-    "binname": "cloud-init-doc",
-    "visiblename": "cloud-init-doc",
-    "version": "20.3",
-    "maintainers": [
-      "dermot_bradley@yahoo.com"
-    ],
-    "licenses": [
-      "Apache-2.0 OR GPL-3.0-only"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Cloud instance init scripts (documentation)",
-    "status": "newest",
-    "origversion": "20.3-r0"
-  },
-  {
-    "repo": "alpine_edge",
-    "subrepo": "testing",
-    "srcname": "cloud-init",
-    "binname": "cloud-init-openrc",
-    "visiblename": "cloud-init-openrc",
-    "version": "20.3",
-    "maintainers": [
-      "dermot_bradley@yahoo.com"
-    ],
-    "licenses": [
-      "Apache-2.0 OR GPL-3.0-only"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Cloud instance init scripts (OpenRC init scripts)",
-    "status": "newest",
-    "origversion": "20.3-r0"
-  },
-  {
-    "repo": "nix_stable",
-    "name": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "maintainers": [
-      "georges.dubus@compiletoi.net",
-      "nix@314.ch"
-    ],
-    "www": [
-      "https://cloudinit.readthedocs.org/"
-    ],
-    "summary": "Provides configuration and customization of cloud instance",
-    "status": "outdated",
-    "origversion": null
-  },
-  {
-    "repo": "nix_unstable",
-    "name": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "maintainers": [
-      "georges.dubus@compiletoi.net",
-      "nix@314.ch"
-    ],
-    "www": [
-      "https://cloudinit.readthedocs.org/"
-    ],
-    "summary": "Provides configuration and customization of cloud instance",
-    "status": "outdated",
-    "origversion": null
-  },
-  {
-    "repo": "arch",
-    "subrepo": "community",
-    "srcname": "cloud-init",
-    "binname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "licenses": [
-      "GPL3"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "The standard for customising cloud instances",
-    "status": "outdated",
-    "origversion": "20.2-1"
-  },
-  {
-    "repo": "manjaro_stable",
-    "subrepo": "community",
-    "srcname": "cloud-init",
-    "binname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "licenses": [
-      "GPL3"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "The standard for customising cloud instances",
-    "status": "outdated",
-    "origversion": "20.2-1"
-  },
-  {
-    "repo": "manjaro_testing",
-    "subrepo": "community",
-    "srcname": "cloud-init",
-    "binname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "licenses": [
-      "GPL3"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "The standard for customising cloud instances",
-    "status": "outdated",
-    "origversion": "20.2-1"
-  },
-  {
-    "repo": "manjaro_unstable",
-    "subrepo": "community",
-    "srcname": "cloud-init",
-    "binname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "licenses": [
-      "GPL3"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "The standard for customising cloud instances",
-    "status": "outdated",
-    "origversion": "20.2-1"
-  },
-  {
-    "repo": "parabola",
-    "subrepo": "community",
-    "srcname": "cloud-init",
-    "binname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "licenses": [
-      "GPL3"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "The standard for customising cloud instances",
-    "status": "outdated",
-    "origversion": "20.2-1"
-  },
-  {
-    "repo": "freebsd",
-    "srcname": "net/cloud-init",
-    "binname": "py37-cloud-init",
-    "visiblename": "net/cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "andrey@bsdnir.info"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Init scripts for use on cloud images",
-    "categories": [
-      "net"
-    ],
-    "status": "outdated",
-    "origversion": "20.2_1"
-  },
-  {
-    "repo": "dports",
-    "srcname": "net/cloud-init",
-    "binname": "py37-cloud-init",
-    "visiblename": "net/cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "andrey@bsdnir.info"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Init scripts for use on cloud images",
-    "categories": [
-      "net"
-    ],
-    "status": "outdated",
-    "origversion": "20.2_1"
-  },
-  {
-    "repo": "debian_oldstable",
-    "subrepo": "oldstable/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "acid@debian.org",
-      "miguel@miguel.cc",
-      "plessy@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.9-2"
-  },
-  {
-    "repo": "debian_stable",
-    "subrepo": "stable/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2~deb10u1"
-  },
-  {
-    "repo": "debian_stable_backports",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "misc"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2~bpo10+1"
-  },
-  {
-    "repo": "debian_testing",
-    "subrepo": "testing/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2"
-  },
-  {
-    "repo": "debian_unstable",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2"
-  },
-  {
-    "repo": "deepin_unstable",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "acid@debian.org",
-      "nomadium@debian.org",
-      "plessy@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.9-5"
-  },
-  {
-    "repo": "devuan_1_0",
-    "subrepo": "jessie/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.6bzr976",
-    "maintainers": [
-      "plessy@debian.org",
-      "acid@debian.org",
-      "miguel@miguel.cc",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.6~bzr976-2"
-  },
-  {
-    "repo": "devuan_2_0",
-    "subrepo": "ascii/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "acid@debian.org",
-      "miguel@miguel.cc",
-      "plessy@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.9-2"
-  },
-  {
-    "repo": "devuan_3_0",
-    "subrepo": "beowulf/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2~deb10u1"
-  },
-  {
-    "repo": "devuan_4_0",
-    "subrepo": "chimaera/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2"
-  },
-  {
-    "repo": "devuan_unstable",
-    "subrepo": "unstable/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2"
-  },
-  {
-    "repo": "kali_rolling",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2"
-  },
-  {
-    "repo": "pardus",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "acid@debian.org",
-      "miguel@miguel.cc",
-      "plessy@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.9-2"
-  },
-  {
-    "repo": "parrot",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2"
-  },
-  {
-    "repo": "pureos_amber",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.3",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "plessy@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "misc"
-    ],
-    "status": "outdated",
-    "origversion": "18.3-6"
-  },
-  {
-    "repo": "pureos_landing",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "misc"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2"
-  },
-  {
-    "repo": "raspbian_oldstable",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "acid@debian.org",
-      "miguel@miguel.cc",
-      "plessy@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.9-2"
-  },
-  {
-    "repo": "raspbian_stable",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2~deb10u1"
-  },
-  {
-    "repo": "raspbian_testing",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "debian-cloud@lists.debian.org",
-      "noahm@debian.org",
-      "waldi@debian.org",
-      "zigo@debian.org"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-2"
-  },
-  {
-    "repo": "ubuntu_12_04",
-    "subrepo": "precise/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.6.3",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.6.3-0ubuntu1"
-  },
-  {
-    "repo": "ubuntu_12_04",
-    "subrepo": "precise-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.6.3",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.6.3-0ubuntu1.25"
-  },
-  {
-    "repo": "ubuntu_14_04",
-    "subrepo": "trusty/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.5",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.5-0ubuntu1"
-  },
-  {
-    "repo": "ubuntu_14_04",
-    "subrepo": "trusty-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.5",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.5-0ubuntu1.23"
-  },
-  {
-    "repo": "ubuntu_16_04",
-    "subrepo": "xenial/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.7bzr1212",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "legacy",
-    "origversion": "0.7.7~bzr1212-0ubuntu1"
-  },
-  {
-    "repo": "ubuntu_16_04",
-    "subrepo": "xenial-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~16.04.1"
-  },
-  {
-    "repo": "ubuntu_18_04",
-    "subrepo": "bionic/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-14-g6d48d265-0ubuntu1"
-  },
-  {
-    "repo": "ubuntu_18_04",
-    "subrepo": "bionic-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~18.04.1"
-  },
-  {
-    "repo": "ubuntu_19_10",
-    "subrepo": "eoan/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.2",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "legacy",
-    "origversion": "19.2-36-g059d049c-0ubuntu3"
-  },
-  {
-    "repo": "ubuntu_19_10",
-    "subrepo": "eoan-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~19.10.1"
-  },
-  {
-    "repo": "ubuntu_20_04",
-    "subrepo": "focal/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.1",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "legacy",
-    "origversion": "20.1-10-g71af48df-0ubuntu5"
-  },
-  {
-    "repo": "ubuntu_20_04",
-    "subrepo": "focal-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~20.04.1"
-  },
-  {
-    "repo": "ubuntu_20_04_proposed",
-    "subrepo": "focal-proposed/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.3",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "newest",
-    "origversion": "20.3-2-g371b392c-0ubuntu1~20.04.1"
-  },
-  {
-    "repo": "ubuntu_20_10",
-    "subrepo": "groovy/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.3",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "newest",
-    "origversion": "20.3-2-g371b392c-0ubuntu1"
-  },
-  {
-    "repo": "trisquel_6_0",
-    "subrepo": "toutatis/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.6.3",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.6.3-0ubuntu1"
-  },
-  {
-    "repo": "trisquel_6_0",
-    "subrepo": "toutatis-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.6.3",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.6.3-0ubuntu1.25"
-  },
-  {
-    "repo": "trisquel_7_0",
-    "subrepo": "belenos/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.5",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.5-0ubuntu1"
-  },
-  {
-    "repo": "trisquel_7_0",
-    "subrepo": "belenos-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.5",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.5-0ubuntu1.23"
-  },
-  {
-    "repo": "trisquel_8_0",
-    "subrepo": "flidas/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.7bzr1212",
-    "maintainers": [
-      "smoser@ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "legacy",
-    "origversion": "0.7.7~bzr1212-0ubuntu1"
-  },
-  {
-    "repo": "trisquel_8_0",
-    "subrepo": "flidas-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.2",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~16.04.1"
-  },
-  {
-    "repo": "funtoo_1.4",
-    "subrepo": "nokit",
-    "srcname": "app-emulation/cloud-init",
-    "visiblename": "app-emulation/cloud-init",
-    "version": "17.2",
-    "maintainers": [
-      "prometheanfire@gentoo.org",
-      "eva@gentoo.org"
-    ],
-    "licenses": [
-      "GPL-3"
-    ],
-    "downloads": [
-      "https://launchpad.net/cloud-init/trunk/17.2/+download/cloud-init-17.2.tar.gz"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "summary": "cloud initialisation magic",
-    "categories": [
-      "app-emulation"
-    ],
-    "status": "legacy",
-    "origversion": null
-  },
-  {
-    "repo": "funtoo_1.4",
-    "subrepo": "nokit",
-    "srcname": "app-emulation/cloud-init",
-    "visiblename": "app-emulation/cloud-init",
-    "version": "18.4",
-    "maintainers": [
-      "prometheanfire@gentoo.org",
-      "eva@gentoo.org"
-    ],
-    "licenses": [
-      "GPL-3"
-    ],
-    "downloads": [
-      "https://launchpad.net/cloud-init/trunk/18.4/+download/cloud-init-18.4.tar.gz"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance initialisation magic",
-    "categories": [
-      "app-emulation"
-    ],
-    "status": "legacy",
-    "origversion": "18.4-r1"
-  },
-  {
-    "repo": "funtoo_1.4",
-    "subrepo": "nokit",
-    "srcname": "app-emulation/cloud-init",
-    "visiblename": "app-emulation/cloud-init",
-    "version": "18.5",
-    "maintainers": [
-      "prometheanfire@gentoo.org",
-      "eva@gentoo.org"
-    ],
-    "licenses": [
-      "GPL-3"
-    ],
-    "downloads": [
-      "https://launchpad.net/cloud-init/trunk/18.5/+download/cloud-init-18.5.tar.gz"
-    ],
-    "www": [
-      "https://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance initialisation magic",
-    "categories": [
-      "app-emulation"
-    ],
-    "status": "outdated",
-    "origversion": null
   }
 ]
