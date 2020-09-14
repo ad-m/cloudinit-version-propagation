@@ -700,7 +700,7 @@
   categories:
     - Unspecified
   status: outdated
-  origversion: 19.4-5.fc33
+  origversion: 19.4-7.fc34
 - repo: freebsd
   srcname: net/cloud-init
   binname: py37-cloud-init
