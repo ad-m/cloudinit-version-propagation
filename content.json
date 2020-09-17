@@ -145,25 +145,6 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.21.amzn1"
-  },
-  {
-    "repo": "amazon_1",
-    "subrepo": "updates",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.6",
-    "licenses": [
-      "GPLv3"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
     "origversion": "0.7.6-2.20.amzn1"
   },
   {
@@ -203,6 +184,25 @@
     ],
     "status": "outdated",
     "origversion": "0.7.6-2.17.amzn1"
+  },
+  {
+    "repo": "amazon_1",
+    "subrepo": "updates",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.6",
+    "licenses": [
+      "GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.6-2.21.amzn1"
   },
   {
     "repo": "amazon_2",
@@ -927,6 +927,25 @@
     ],
     "status": "outdated",
     "origversion": "19.4-2.fc32"
+  },
+  {
+    "repo": "fedora_33",
+    "subrepo": "development",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.4",
+    "licenses": [
+      "ASL 2.0 or GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "Unspecified"
+    ],
+    "status": "outdated",
+    "origversion": "19.4-5.fc33"
   },
   {
     "repo": "fedora_rawhide",
@@ -2390,15 +2409,15 @@
     "subrepo": "flidas-updates/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "ubuntu-devel-discuss@lists.ubuntu.com"
     ],
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~16.04.1"
+    "status": "newest",
+    "origversion": "20.3-2-g371b392c-0ubuntu1~16.04.1"
   },
   {
     "repo": "ubuntu_12_04",
@@ -2480,15 +2499,15 @@
     "subrepo": "xenial-updates/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "ubuntu-devel-discuss@lists.ubuntu.com"
     ],
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~16.04.1"
+    "status": "newest",
+    "origversion": "20.3-2-g371b392c-0ubuntu1~16.04.1"
   },
   {
     "repo": "ubuntu_18_04",
@@ -2510,15 +2529,15 @@
     "subrepo": "bionic-updates/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "ubuntu-devel-discuss@lists.ubuntu.com"
     ],
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~18.04.1"
+    "status": "newest",
+    "origversion": "20.3-2-g371b392c-0ubuntu1~18.04.1"
   },
   {
     "repo": "ubuntu_19_10",
@@ -2573,7 +2592,7 @@
     "subrepo": "focal-updates/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "ubuntu-devel-discuss@lists.ubuntu.com"
     ],
@@ -2583,8 +2602,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.2-45-g5f7825e2-0ubuntu1~20.04.1"
+    "status": "newest",
+    "origversion": "20.3-2-g371b392c-0ubuntu1~20.04.1"
   },
   {
     "repo": "ubuntu_20_04_proposed",
