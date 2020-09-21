@@ -145,7 +145,7 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.20.amzn1"
+    "origversion": "0.7.6-2.16.amzn1"
   },
   {
     "repo": "amazon_1",
@@ -164,7 +164,7 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.16.amzn1"
+    "origversion": "0.7.6-2.20.amzn1"
   },
   {
     "repo": "amazon_1",
@@ -238,7 +238,7 @@
       "System Environment/Base"
     ],
     "status": "legacy",
-    "origversion": "0.7.9-4.amzn2.8"
+    "origversion": "0.7.9-4.amzn2.9"
   },
   {
     "repo": "amazon_2",
@@ -256,43 +256,7 @@
       "System Environment/Base"
     ],
     "status": "legacy",
-    "origversion": "0.7.9-4.amzn2.9"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.4"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.5"
+    "origversion": "0.7.9-4.amzn2.8"
   },
   {
     "repo": "amazon_2",
@@ -328,13 +292,13 @@
       "System Environment/Base"
     ],
     "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.6"
+    "origversion": "18.2-72.amzn2.0.4"
   },
   {
     "repo": "amazon_2",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "18.5",
+    "version": "18.2",
     "licenses": [
       "GPLv3 or Apache 2.0"
     ],
@@ -346,7 +310,25 @@
       "System Environment/Base"
     ],
     "status": "legacy",
-    "origversion": "18.5-2.amzn2"
+    "origversion": "18.2-72.amzn2.0.6"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.5"
   },
   {
     "repo": "amazon_2",
@@ -383,6 +365,24 @@
     ],
     "status": "outdated",
     "origversion": "19.3-2.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.5",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.5-2.amzn2"
   },
   {
     "repo": "arch",
@@ -970,7 +970,7 @@
     "srcname": "net/cloud-init",
     "binname": "py37-cloud-init",
     "visiblename": "net/cloud-init",
-    "version": "20.2",
+    "version": "20.3",
     "maintainers": [
       "andrey@bsdnir.info"
     ],
@@ -981,8 +981,8 @@
     "categories": [
       "net"
     ],
-    "status": "outdated",
-    "origversion": "20.2_1"
+    "status": "newest",
+    "origversion": null
   },
   {
     "repo": "funtoo_1.4",
@@ -2590,24 +2590,6 @@
   {
     "repo": "ubuntu_20_04",
     "subrepo": "focal-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.3",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "newest",
-    "origversion": "20.3-2-g371b392c-0ubuntu1~20.04.1"
-  },
-  {
-    "repo": "ubuntu_20_04_proposed",
-    "subrepo": "focal-proposed/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
     "version": "20.3",
