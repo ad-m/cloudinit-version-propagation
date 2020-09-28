@@ -3,6 +3,26 @@
     "repo": "alpine_edge",
     "subrepo": "testing",
     "srcname": "cloud-init",
+    "binname": "cloud-init-openrc",
+    "visiblename": "cloud-init-openrc",
+    "version": "20.3",
+    "maintainers": [
+      "dermot_bradley@yahoo.com"
+    ],
+    "licenses": [
+      "Apache-2.0 OR GPL-3.0-only"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Cloud instance init scripts (OpenRC init scripts)",
+    "status": "newest",
+    "origversion": "20.3-r3"
+  },
+  {
+    "repo": "alpine_edge",
+    "subrepo": "testing",
+    "srcname": "cloud-init",
     "binname": "cloud-init-doc",
     "visiblename": "cloud-init-doc",
     "version": "20.3",
@@ -15,9 +35,9 @@
     "www": [
       "https://cloud-init.io/"
     ],
-    "summary": "Cloud instance init scripts",
+    "summary": "Cloud instance init scripts (documentation)",
     "status": "newest",
-    "origversion": "20.3-r1"
+    "origversion": "20.3-r3"
   },
   {
     "repo": "alpine_edge",
@@ -37,27 +57,7 @@
     ],
     "summary": "Bash completions for cloud-init",
     "status": "newest",
-    "origversion": "20.3-r1"
-  },
-  {
-    "repo": "alpine_edge",
-    "subrepo": "testing",
-    "srcname": "cloud-init",
-    "binname": "cloud-init-openrc",
-    "visiblename": "cloud-init-openrc",
-    "version": "20.3",
-    "maintainers": [
-      "dermot_bradley@yahoo.com"
-    ],
-    "licenses": [
-      "Apache-2.0 OR GPL-3.0-only"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Cloud instance init scripts (OpenRC init scripts)",
-    "status": "newest",
-    "origversion": "20.3-r1"
+    "origversion": "20.3-r3"
   },
   {
     "repo": "alpine_edge",
@@ -77,7 +77,7 @@
     ],
     "summary": "Cloud instance init scripts",
     "status": "newest",
-    "origversion": "20.3-r1"
+    "origversion": "20.3-r3"
   },
   {
     "repo": "alt_p9",
@@ -220,7 +220,7 @@
       "System Environment/Base"
     ],
     "status": "legacy",
-    "origversion": "0.7.9-4.amzn2.6"
+    "origversion": "0.7.9-4.amzn2.9"
   },
   {
     "repo": "amazon_2",
@@ -238,7 +238,7 @@
       "System Environment/Base"
     ],
     "status": "legacy",
-    "origversion": "0.7.9-4.amzn2.9"
+    "origversion": "0.7.9-4.amzn2.6"
   },
   {
     "repo": "amazon_2",
