@@ -162,6 +162,19 @@
   categories:
     - System Environment/Base
   status: legacy
+  origversion: 0.7.9-4.amzn2.8
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
   origversion: 0.7.9-4.amzn2.9
 - repo: amazon_2
   srcname: cloud-init
@@ -176,19 +189,6 @@
     - System Environment/Base
   status: legacy
   origversion: 0.7.9-4.amzn2.6
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-4.amzn2.8
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -701,7 +701,7 @@
   categories:
     - Unspecified
   status: outdated
-  origversion: 19.4-5.fc33
+  origversion: 19.4-7.fc33
 - repo: fedora_rawhide
   srcname: cloud-init
   visiblename: cloud-init
