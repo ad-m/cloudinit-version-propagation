@@ -1,5 +1,5 @@
 - repo: alpine_edge
-  subrepo: testing
+  subrepo: community
   srcname: cloud-init
   binname: cloud-init-openrc
   visiblename: cloud-init-openrc
@@ -14,7 +14,7 @@
   status: newest
   origversion: 20.3-r3
 - repo: alpine_edge
-  subrepo: testing
+  subrepo: community
   srcname: cloud-init
   binname: cloud-init-doc
   visiblename: cloud-init-doc
@@ -29,22 +29,7 @@
   status: newest
   origversion: 20.3-r3
 - repo: alpine_edge
-  subrepo: testing
-  srcname: cloud-init
-  binname: cloud-init-bash-completion
-  visiblename: cloud-init-bash-completion
-  version: '20.3'
-  maintainers:
-    - dermot_bradley@yahoo.com
-  licenses:
-    - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
-  summary: Bash completions for cloud-init
-  status: newest
-  origversion: 20.3-r3
-- repo: alpine_edge
-  subrepo: testing
+  subrepo: community
   srcname: cloud-init
   binname: cloud-init
   visiblename: cloud-init
@@ -56,6 +41,21 @@
   www:
     - https://cloud-init.io/
   summary: Cloud instance init scripts
+  status: newest
+  origversion: 20.3-r3
+- repo: alpine_edge
+  subrepo: community
+  srcname: cloud-init
+  binname: cloud-init-bash-completion
+  visiblename: cloud-init-bash-completion
+  version: '20.3'
+  maintainers:
+    - dermot_bradley@yahoo.com
+  licenses:
+    - Apache-2.0 OR GPL-3.0-only
+  www:
+    - https://cloud-init.io/
+  summary: Bash completions for cloud-init
   status: newest
   origversion: 20.3-r3
 - repo: alt_p9
@@ -153,16 +153,29 @@
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
-  version: 0.7.9
+  version: '19.3'
   licenses:
-    - GPLv3
+    - GPLv3 or Apache 2.0
   www:
     - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-4.amzn2.8
+  status: outdated
+  origversion: 19.3-3.amzn2
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.3'
+  licenses:
+    - GPLv3 or Apache 2.0
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.3-2.amzn2
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -192,29 +205,16 @@
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
-  version: '18.2'
+  version: 0.7.9
   licenses:
-    - GPLv3 or Apache 2.0
+    - GPLv3
   www:
     - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.2-72.amzn2.0.7
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.2'
-  licenses:
-    - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.2-72.amzn2.0.4
+  origversion: 0.7.9-4.amzn2.8
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -244,7 +244,7 @@
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
-  version: '19.3'
+  version: '18.2'
   licenses:
     - GPLv3 or Apache 2.0
   www:
@@ -252,12 +252,12 @@
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: outdated
-  origversion: 19.3-3.amzn2
+  status: legacy
+  origversion: 18.2-72.amzn2.0.7
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
-  version: '19.3'
+  version: '18.2'
   licenses:
     - GPLv3 or Apache 2.0
   www:
@@ -265,8 +265,8 @@
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: outdated
-  origversion: 19.3-2.amzn2
+  status: legacy
+  origversion: 18.2-72.amzn2.0.4
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -1322,6 +1322,20 @@
     - System/Management
   status: outdated
   origversion: 19.4-lp152.4.1
+- repo: opensuse_leap_15_2
+  subrepo: updates/oss
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  licenses:
+    - GPL-3.0
+  www:
+    - http://launchpad.net/cloud-init/
+  summary: Cloud node initialization tool
+  categories:
+    - System/Management
+  status: outdated
+  origversion: 19.4-lp152.5.3.1
 - repo: opensuse_leap_42_3
   subrepo: main/oss
   srcname: cloud-init
@@ -1694,7 +1708,7 @@
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: outdated
+  status: legacy
   origversion: 18.5-3.el7
 - repo: scientific_7x
   srcname: cloud-init
@@ -1707,7 +1721,7 @@
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: outdated
+  status: legacy
   origversion: 18.5-6.el7
 - repo: scientific_7x
   srcname: cloud-init
@@ -1720,8 +1734,21 @@
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: outdated
+  status: legacy
   origversion: 18.5-6.el7_8.5
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.4-7.el7
 - repo: trisquel_6_0
   subrepo: toutatis/main
   srcname: cloud-init
