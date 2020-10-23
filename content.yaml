@@ -1418,7 +1418,7 @@
   categories:
     - System/Management
   status: outdated
-  origversion: 20.2-1.2
+  origversion: 20.2-2.1
 - repo: parabola
   subrepo: community
   srcname: cloud-init
