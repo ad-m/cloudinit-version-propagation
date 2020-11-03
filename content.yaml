@@ -432,7 +432,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.2-2
+  origversion: 20.2-3
 - repo: debian_unstable
   subrepo: main
   srcname: cloud-init
@@ -532,7 +532,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.2-2
+  origversion: 20.2-3
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: cloud-init

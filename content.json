@@ -586,7 +586,7 @@
       "admin"
     ],
     "status": "outdated",
-    "origversion": "20.2-2"
+    "origversion": "20.2-3"
   },
   {
     "repo": "debian_unstable",
@@ -716,7 +716,7 @@
       "admin"
     ],
     "status": "outdated",
-    "origversion": "20.2-2"
+    "origversion": "20.2-3"
   },
   {
     "repo": "devuan_unstable",
