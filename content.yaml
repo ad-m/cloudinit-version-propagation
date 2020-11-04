@@ -881,7 +881,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.2-2
+  origversion: 20.2-3
 - repo: liguros_20_7
   subrepo: nokit
   srcname: app-emulation/cloud-init
@@ -1495,7 +1495,7 @@
   categories:
     - misc
   status: outdated
-  origversion: 20.2-2
+  origversion: 20.2-3
 - repo: raspbian_oldstable
   subrepo: main
   srcname: cloud-init
