@@ -1323,6 +1323,20 @@
   status: outdated
   origversion: 20.2-lp152.5.6.1
 - repo: opensuse_leap_15_2
+  subrepo: updates/oss
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '20.2'
+  licenses:
+    - GPL-3.0
+  www:
+    - http://launchpad.net/cloud-init/
+  summary: Cloud node initialization tool
+  categories:
+    - System/Management
+  status: outdated
+  origversion: 20.2-lp152.5.9.1
+- repo: opensuse_leap_15_2
   subrepo: main/oss
   srcname: cloud-init
   visiblename: cloud-init
@@ -1545,7 +1559,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.2-2
+  origversion: 20.2-3
 - repo: rosa_server_7_3
   subrepo: extra/release
   srcname: cloud-init
