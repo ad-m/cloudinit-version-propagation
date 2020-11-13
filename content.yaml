@@ -68,7 +68,7 @@
   categories:
     - System/Configuration/Boot and Init
   status: outdated
-  origversion: 20.1-alt1
+  origversion: 20.1-alt2
 - repo: altsisyphus
   srcname: cloud-init
   visiblename: cloud-init
@@ -192,6 +192,32 @@
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
+  version: '19.3'
+  licenses:
+    - GPLv3 or Apache 2.0
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.3-3.amzn2
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.3'
+  licenses:
+    - GPLv3 or Apache 2.0
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.3-2.amzn2
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
   version: '18.2'
   licenses:
     - GPLv3 or Apache 2.0
@@ -227,7 +253,7 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.2-72.amzn2.0.6
+  origversion: 18.2-72.amzn2.0.5
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -240,33 +266,7 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.2-72.amzn2.0.5
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.3'
-  licenses:
-    - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: outdated
-  origversion: 19.3-2.amzn2
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.3'
-  licenses:
-    - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: outdated
-  origversion: 19.3-3.amzn2
+  origversion: 18.2-72.amzn2.0.6
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
