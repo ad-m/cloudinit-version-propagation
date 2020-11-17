@@ -1183,6 +1183,20 @@
   status: outdated
   origversion: 19.2-lp150.2.22.1
 - repo: opensuse_leap_15_1
+  subrepo: updates/oss
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '20.2'
+  licenses:
+    - GPL-3.0
+  www:
+    - http://launchpad.net/cloud-init/
+  summary: Cloud node initialization tool
+  categories:
+    - System/Management
+  status: outdated
+  origversion: 20.2-lp151.2.24.1
+- repo: opensuse_leap_15_1
   subrepo: main/oss
   srcname: cloud-init
   visiblename: cloud-init
@@ -1250,7 +1264,7 @@
   summary: Cloud node initialization tool
   categories:
     - System/Management
-  status: outdated
+  status: legacy
   origversion: 19.4-lp151.2.12.1
 - repo: opensuse_leap_15_1
   subrepo: updates/oss
@@ -1264,7 +1278,7 @@
   summary: Cloud node initialization tool
   categories:
     - System/Management
-  status: outdated
+  status: legacy
   origversion: 19.4-lp151.2.15.1
 - repo: opensuse_leap_15_1
   subrepo: updates/oss
@@ -1278,7 +1292,7 @@
   summary: Cloud node initialization tool
   categories:
     - System/Management
-  status: outdated
+  status: legacy
   origversion: 19.4-lp151.2.18.1
 - repo: opensuse_leap_15_1
   subrepo: updates/oss
@@ -1292,7 +1306,7 @@
   summary: Cloud node initialization tool
   categories:
     - System/Management
-  status: outdated
+  status: legacy
   origversion: 19.4-lp151.2.21.1
 - repo: opensuse_leap_15_2
   subrepo: updates/oss
@@ -1465,7 +1479,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.2-2
+  origversion: 20.2-3
 - repo: pureos_amber
   srcname: cloud-init
   visiblename: cloud-init
