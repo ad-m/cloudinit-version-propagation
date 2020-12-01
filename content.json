@@ -164,25 +164,6 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.17.amzn1"
-  },
-  {
-    "repo": "amazon_1",
-    "subrepo": "updates",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.6",
-    "licenses": [
-      "GPLv3"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
     "origversion": "0.7.6-2.20.amzn1"
   },
   {
@@ -202,7 +183,44 @@
       "System Environment/Base"
     ],
     "status": "outdated",
+    "origversion": "0.7.6-2.17.amzn1"
+  },
+  {
+    "repo": "amazon_1",
+    "subrepo": "updates",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.6",
+    "licenses": [
+      "GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
     "origversion": "0.7.6-2.16.amzn1"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "licenses": [
+      "GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "0.7.9-4.amzn2.8"
   },
   {
     "repo": "amazon_2",
@@ -347,24 +365,6 @@
     ],
     "status": "legacy",
     "origversion": "0.7.9-4.amzn2.9"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "licenses": [
-      "GPLv3"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "0.7.9-4.amzn2.8"
   },
   {
     "repo": "amazon_2",
@@ -589,7 +589,7 @@
     "subrepo": "testing/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.4",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -602,8 +602,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.2-3"
+    "status": "newest",
+    "origversion": "20.4-1"
   },
   {
     "repo": "debian_unstable",
@@ -717,7 +717,7 @@
     "subrepo": "chimaera/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.4",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -730,8 +730,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.2-3"
+    "status": "newest",
+    "origversion": "20.4-1"
   },
   {
     "repo": "devuan_unstable",
