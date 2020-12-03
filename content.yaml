@@ -1,3 +1,16 @@
+- repo: aixtoolbox
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.5
+  licenses:
+    - GPL-3.0
+  www:
+    - http://launchpad.net/cloud-init/
+  summary: Cloud node initialization tool
+  categories:
+    - System/Management
+  status: outdated
+  origversion: 0.7.5-4.3
 - repo: alpine_edge
   subrepo: community
   srcname: cloud-init
@@ -153,6 +166,19 @@
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-4.amzn2.9
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
   version: '18.2'
   licenses:
     - GPLv3 or Apache 2.0
@@ -253,19 +279,6 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 0.7.9-4.amzn2.9
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
   origversion: 0.7.9-4.amzn2.8
 - repo: amazon_2
   srcname: cloud-init
@@ -282,19 +295,6 @@
   origversion: 18.5-2.amzn2
 - repo: arch
   subrepo: community
-  srcname: cloud-init
-  binname: cloud-init
-  visiblename: cloud-init
-  version: '20.2'
-  licenses:
-    - GPL3
-  www:
-    - https://cloud-init.io/
-  summary: The standard for customising cloud instances
-  status: outdated
-  origversion: 20.2-1
-- repo: arch_testing
-  subrepo: community-testing
   srcname: cloud-init
   binname: cloud-init
   visiblename: cloud-init
@@ -1097,7 +1097,7 @@
     - https://cloud-init.io/
   summary: The standard for customising cloud instances
   status: outdated
-  origversion: 20.2-1
+  origversion: 20.2-2
 - repo: nix_stable
   name: cloud-init
   visiblename: cloud-init
@@ -1830,17 +1830,6 @@
   status: outdated
   origversion: 19.4-7.el7_9.2
 - repo: trisquel_6_0
-  subrepo: toutatis-updates/main
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.6.3
-  maintainers:
-    - smoser@ubuntu.com
-  categories:
-    - admin
-  status: outdated
-  origversion: 0.6.3-0ubuntu1.25
-- repo: trisquel_6_0
   subrepo: toutatis/main
   srcname: cloud-init
   visiblename: cloud-init
@@ -1851,6 +1840,17 @@
     - admin
   status: outdated
   origversion: 0.6.3-0ubuntu1
+- repo: trisquel_6_0
+  subrepo: toutatis-updates/main
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.6.3
+  maintainers:
+    - smoser@ubuntu.com
+  categories:
+    - admin
+  status: outdated
+  origversion: 0.6.3-0ubuntu1.25
 - repo: trisquel_7_0
   subrepo: belenos/main
   srcname: cloud-init
@@ -1940,17 +1940,6 @@
   status: outdated
   origversion: 0.6.3-0ubuntu1.25
 - repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.5
-  maintainers:
-    - smoser@ubuntu.com
-  categories:
-    - admin
-  status: outdated
-  origversion: 0.7.5-0ubuntu1
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: cloud-init
   visiblename: cloud-init
@@ -1961,6 +1950,17 @@
     - admin
   status: outdated
   origversion: 0.7.5-0ubuntu1.23
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.5
+  maintainers:
+    - smoser@ubuntu.com
+  categories:
+    - admin
+  status: outdated
+  origversion: 0.7.5-0ubuntu1
 - repo: ubuntu_16_04
   subrepo: xenial-updates/main
   srcname: cloud-init
