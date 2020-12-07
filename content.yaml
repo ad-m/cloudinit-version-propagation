@@ -85,14 +85,14 @@
 - repo: altsisyphus
   srcname: cloud-init
   visiblename: cloud-init
-  version: '20.1'
+  version: '20.4'
   maintainers:
     - obirvalger@altlinux.org
   summary: Cloud instance init scripts
   categories:
     - System/Configuration/Boot and Init
-  status: outdated
-  origversion: 20.1-alt2
+  status: newest
+  origversion: 20.4-alt1
 - repo: amazon_1
   subrepo: main
   srcname: cloud-init
@@ -352,7 +352,7 @@
   subrepo: AppStream
   srcname: cloud-init
   visiblename: cloud-init
-  version: '18.2'
+  version: '18.5'
   maintainers:
     - bugs@centos.org
   licenses:
@@ -363,7 +363,7 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.2-6.el8
+  origversion: 18.5-12.el8
 - repo: centos_8
   subrepo: AppStream
   srcname: cloud-init
@@ -378,8 +378,40 @@
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
+  status: legacy
+  origversion: 18.5-12.el8_2.1
+- repo: centos_8
+  subrepo: AppStream
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.5'
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.5-12.el8_2.2
+- repo: centos_8
+  subrepo: AppStream
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
   status: outdated
-  origversion: 18.5-1.el8.4
+  origversion: 19.4-1.el8.7
 - repo: debian_oldstable
   subrepo: oldstable/main
   srcname: cloud-init
@@ -730,7 +762,7 @@
   srcname: net/cloud-init
   binname: py37-cloud-init
   visiblename: net/cloud-init
-  version: '20.3'
+  version: '20.4'
   maintainers:
     - andrey@bsdnir.info
   www:
@@ -738,8 +770,8 @@
   summary: Init scripts for use on cloud images
   categories:
     - net
-  status: outdated
-  origversion: '20.3_1'
+  status: newest
+  origversion: null
 - repo: funtoo_1.4
   subrepo: nokit
   srcname: app-emulation/cloud-init
@@ -1491,14 +1523,14 @@
   srcname: cloud-init
   binname: cloud-init
   visiblename: cloud-init
-  version: '20.2'
+  version: '20.4'
   licenses:
     - GPL3
   www:
     - https://cloud-init.io/
   summary: The standard for customising cloud instances
-  status: outdated
-  origversion: 20.2-2
+  status: newest
+  origversion: 20.4-1
 - repo: pardus
   subrepo: main
   srcname: cloud-init
