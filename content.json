@@ -1502,7 +1502,7 @@
     "srcname": "cloud-init",
     "binname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.4",
     "licenses": [
       "GPL3"
     ],
@@ -1510,8 +1510,8 @@
       "https://cloud-init.io/"
     ],
     "summary": "The standard for customising cloud instances",
-    "status": "outdated",
-    "origversion": "20.2-1"
+    "status": "newest",
+    "origversion": "20.4-1"
   },
   {
     "repo": "manjaro_unstable",
@@ -1713,6 +1713,25 @@
     ],
     "status": "outdated",
     "origversion": "20.2-lp151.2.24.1"
+  },
+  {
+    "repo": "opensuse_leap_15_1",
+    "subrepo": "updates/oss",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "licenses": [
+      "GPL-3.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init/"
+    ],
+    "summary": "Cloud node initialization tool",
+    "categories": [
+      "System/Management"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-lp151.2.27.1"
   },
   {
     "repo": "opensuse_leap_15_1",
