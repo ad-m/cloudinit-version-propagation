@@ -907,8 +907,21 @@
   summary: Provides Early Initialization for IBM i Cloud Instances
   categories:
     - Unspecified
-  status: outdated
+  status: legacy
   origversion: 1.2-100
+- repo: ibmi
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '1.3'
+  licenses:
+    - GPL-3.0
+  www:
+    - https://github.com/IBM/ibmi-cloudinit
+  summary: Provides Early Initialization for IBM i Cloud Instances
+  categories:
+    - Unspecified
+  status: outdated
+  origversion: 1.3-1
 - repo: kali_rolling
   subrepo: main
   srcname: cloud-init
@@ -1582,10 +1595,10 @@
 - repo: pureos_amber
   srcname: cloud-init
   visiblename: cloud-init
-  version: '18.3'
+  version: '20.2'
   maintainers:
     - debian-cloud@lists.debian.org
-    - plessy@debian.org
+    - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
   www:
@@ -1593,7 +1606,7 @@
   categories:
     - misc
   status: outdated
-  origversion: 18.3-6
+  origversion: 20.2-2~deb10u1
 - repo: pureos_landing
   srcname: cloud-init
   visiblename: cloud-init
