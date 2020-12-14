@@ -748,7 +748,7 @@
 - repo: fedora_rawhide
   srcname: cloud-init
   visiblename: cloud-init
-  version: '19.4'
+  version: '20.4'
   licenses:
     - ASL 2.0 or GPLv3
   www:
@@ -756,8 +756,8 @@
   summary: Cloud instance init scripts
   categories:
     - Unspecified
-  status: outdated
-  origversion: 19.4-7.fc34
+  status: newest
+  origversion: 20.4-1.fc34
 - repo: freebsd
   srcname: net/cloud-init
   binname: py37-cloud-init
@@ -1183,6 +1183,20 @@
   status: outdated
   origversion: 17.1-12.oe1
 - repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '20.3'
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - Dual GPLv3/Apache 2.0
+  summary: Cloud instance initialization tool
+  categories:
+    - Unspecified
+  status: outdated
+  origversion: 20.3-1
+- repo: openmandriva_rolling
   subrepo: main/release
   srcname: cloud-init
   visiblename: cloud-init

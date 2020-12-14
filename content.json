@@ -1011,7 +1011,7 @@
     "repo": "fedora_rawhide",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "19.4",
+    "version": "20.4",
     "licenses": [
       "ASL 2.0 or GPLv3"
     ],
@@ -1022,8 +1022,8 @@
     "categories": [
       "Unspecified"
     ],
-    "status": "outdated",
-    "origversion": "19.4-7.fc34"
+    "status": "newest",
+    "origversion": "20.4-1.fc34"
   },
   {
     "repo": "freebsd",
@@ -1601,6 +1601,25 @@
   },
   {
     "repo": "openmandriva_cooker",
+    "subrepo": "main/release",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.3",
+    "maintainers": [
+      "bero@lindev.ch"
+    ],
+    "licenses": [
+      "Dual GPLv3/Apache 2.0"
+    ],
+    "summary": "Cloud instance initialization tool",
+    "categories": [
+      "Unspecified"
+    ],
+    "status": "outdated",
+    "origversion": "20.3-1"
+  },
+  {
+    "repo": "openmandriva_rolling",
     "subrepo": "main/release",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
