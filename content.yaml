@@ -1916,6 +1916,19 @@
     - System Environment/Base
   status: outdated
   origversion: 19.4-7.el7_9.2
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.4-7.el7_9.3
 - repo: trisquel_6_0
   subrepo: toutatis/main
   srcname: cloud-init
