@@ -348,6 +348,20 @@
     - System Environment/Base
   status: outdated
   origversion: 19.4-7.el7.centos.2
+- repo: centos_7
+  subrepo: updates
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.4-7.el7.centos.3
 - repo: centos_8
   subrepo: AppStream
   srcname: cloud-init
@@ -2105,28 +2119,6 @@
     - admin
   status: legacy
   origversion: 18.2-14-g6d48d265-0ubuntu1
-- repo: ubuntu_19_10
-  subrepo: eoan-updates/main
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '20.2'
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - admin
-  status: outdated
-  origversion: 20.2-45-g5f7825e2-0ubuntu1~19.10.1
-- repo: ubuntu_19_10
-  subrepo: eoan/main
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.2'
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - admin
-  status: legacy
-  origversion: 19.2-36-g059d049c-0ubuntu3
 - repo: ubuntu_20_04
   subrepo: focal/main
   srcname: cloud-init
