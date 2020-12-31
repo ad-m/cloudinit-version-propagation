@@ -238,6 +238,24 @@
       "System Environment/Base"
     ],
     "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.4"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
     "origversion": "18.2-72.amzn2.0.7"
   },
   {
@@ -275,24 +293,6 @@
     ],
     "status": "legacy",
     "origversion": "18.2-72.amzn2.0.5"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.4"
   },
   {
     "repo": "amazon_2",
@@ -1547,7 +1547,7 @@
     "srcname": "cloud-init",
     "binname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.2",
+    "version": "20.4",
     "licenses": [
       "GPL3"
     ],
@@ -1555,8 +1555,8 @@
       "https://cloud-init.io/"
     ],
     "summary": "The standard for customising cloud instances",
-    "status": "outdated",
-    "origversion": "20.2-1"
+    "status": "newest",
+    "origversion": "20.4-1"
   },
   {
     "repo": "manjaro_testing",
