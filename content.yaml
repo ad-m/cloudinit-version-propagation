@@ -175,19 +175,6 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.2-72.amzn2.0.4
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.2'
-  licenses:
-    - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
   origversion: 18.2-72.amzn2.0.7
 - repo: amazon_2
   srcname: cloud-init
@@ -215,6 +202,19 @@
     - System Environment/Base
   status: legacy
   origversion: 18.2-72.amzn2.0.5
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.2'
+  licenses:
+    - GPLv3 or Apache 2.0
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.2-72.amzn2.0.4
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -2009,13 +2009,13 @@
   subrepo: flidas-updates/main
   srcname: cloud-init
   visiblename: cloud-init
-  version: '20.3'
+  version: '20.4'
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: outdated
-  origversion: 20.3-2-g371b392c-0ubuntu1~16.04.1
+  status: newest
+  origversion: 20.4-0ubuntu1~16.04.1
 - repo: trisquel_8_0
   subrepo: flidas/main
   srcname: cloud-init
@@ -2031,13 +2031,13 @@
   subrepo: etiona-updates/main
   srcname: cloud-init
   visiblename: cloud-init
-  version: '20.3'
+  version: '20.4'
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: outdated
-  origversion: 20.3-2-g371b392c-0ubuntu1~18.04.1
+  status: newest
+  origversion: 20.4-0ubuntu1~18.04.1
 - repo: trisquel_9_0
   subrepo: etiona/main
   srcname: cloud-init
@@ -2097,13 +2097,13 @@
   subrepo: xenial-updates/main
   srcname: cloud-init
   visiblename: cloud-init
-  version: '20.3'
+  version: '20.4'
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: outdated
-  origversion: 20.3-2-g371b392c-0ubuntu1~16.04.1
+  status: newest
+  origversion: 20.4-0ubuntu1~16.04.1
 - repo: ubuntu_16_04
   subrepo: xenial/main
   srcname: cloud-init
@@ -2119,13 +2119,13 @@
   subrepo: bionic-updates/main
   srcname: cloud-init
   visiblename: cloud-init
-  version: '20.3'
+  version: '20.4'
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: outdated
-  origversion: 20.3-2-g371b392c-0ubuntu1~18.04.1
+  status: newest
+  origversion: 20.4-0ubuntu1~18.04.1
 - repo: ubuntu_18_04
   subrepo: bionic/main
   srcname: cloud-init
@@ -2154,15 +2154,15 @@
   subrepo: focal-updates/main
   srcname: cloud-init
   visiblename: cloud-init
-  version: '20.3'
+  version: '20.4'
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
   www:
     - https://cloud-init.io/
   categories:
     - admin
-  status: outdated
-  origversion: 20.3-2-g371b392c-0ubuntu1~20.04.1
+  status: newest
+  origversion: 20.4-0ubuntu1~20.04.1
 - repo: ubuntu_20_04_proposed
   subrepo: focal-proposed/main
   srcname: cloud-init
@@ -2187,8 +2187,21 @@
     - https://cloud-init.io/
   categories:
     - admin
-  status: outdated
+  status: legacy
   origversion: 20.3-15-g6d332e5c-0ubuntu1
+- repo: ubuntu_20_10
+  subrepo: groovy-updates/main
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '20.4'
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  www:
+    - https://cloud-init.io/
+  categories:
+    - admin
+  status: newest
+  origversion: 20.4-0ubuntu1~20.10.1
 - repo: ubuntu_20_10_proposed
   subrepo: groovy-proposed/main
   srcname: cloud-init
