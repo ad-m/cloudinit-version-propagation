@@ -1262,6 +1262,20 @@
     "origversion": null
   },
   {
+    "repo": "haikuports_master",
+    "srcname": "haiku-misc/cloud_init",
+    "visiblename": "haiku-misc/cloud_init",
+    "version": "1.1",
+    "www": [
+      "https://gitlab.com/kallisti5/cloud-init-haiku"
+    ],
+    "categories": [
+      "haiku-misc"
+    ],
+    "status": "outdated",
+    "origversion": null
+  },
+  {
     "repo": "ibmi",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
@@ -2934,24 +2948,6 @@
     "origversion": "20.4-0ubuntu1~20.04.1"
   },
   {
-    "repo": "ubuntu_20_04_proposed",
-    "subrepo": "focal-proposed/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.4",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "newest",
-    "origversion": "20.4-0ubuntu1~20.04.1"
-  },
-  {
     "repo": "ubuntu_20_10",
     "subrepo": "groovy/main",
     "srcname": "cloud-init",
@@ -2972,24 +2968,6 @@
   {
     "repo": "ubuntu_20_10",
     "subrepo": "groovy-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.4",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "newest",
-    "origversion": "20.4-0ubuntu1~20.10.1"
-  },
-  {
-    "repo": "ubuntu_20_10_proposed",
-    "subrepo": "groovy-proposed/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
     "version": "20.4",
