@@ -2205,7 +2205,7 @@
     "origversion": "20.4-1"
   },
   {
-    "repo": "pardus",
+    "repo": "pardus_17",
     "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
@@ -2226,6 +2226,69 @@
     ],
     "status": "outdated",
     "origversion": "0.7.9-2"
+  },
+  {
+    "repo": "pardus_19",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "20.2",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "noahm@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "20.2-2~deb10u1"
+  },
+  {
+    "repo": "pardus_19",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.3",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "plessy@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "legacy",
+    "origversion": "18.3-6"
+  },
+  {
+    "repo": "pardus_19",
+    "subrepo": "main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.3",
+    "maintainers": [
+      "debian-cloud@lists.debian.org",
+      "plessy@debian.org",
+      "waldi@debian.org",
+      "zigo@debian.org"
+    ],
+    "www": [
+      "https://launchpad.net/cloud-init"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "legacy",
+    "origversion": "18.3-5"
   },
   {
     "repo": "parrot",
