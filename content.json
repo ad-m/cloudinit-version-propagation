@@ -3029,24 +3029,6 @@
     "origversion": "20.4-0ubuntu1~20.04.2"
   },
   {
-    "repo": "ubuntu_20_04_proposed",
-    "subrepo": "focal-proposed/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.4",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "newest",
-    "origversion": "20.4-0ubuntu1~20.04.2"
-  },
-  {
     "repo": "ubuntu_20_10",
     "subrepo": "groovy/main",
     "srcname": "cloud-init",
@@ -3067,24 +3049,6 @@
   {
     "repo": "ubuntu_20_10",
     "subrepo": "groovy-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "20.4",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "newest",
-    "origversion": "20.4-0ubuntu1~20.10.2"
-  },
-  {
-    "repo": "ubuntu_20_10_proposed",
-    "subrepo": "groovy-proposed/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
     "version": "20.4",
