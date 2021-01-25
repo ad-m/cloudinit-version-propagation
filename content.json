@@ -671,7 +671,7 @@
     "subrepo": "testing/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.4",
+    "version": "20.4.1",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -684,8 +684,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.4-1"
+    "status": "newest",
+    "origversion": "20.4.1-1"
   },
   {
     "repo": "debian_unstable",
@@ -799,7 +799,7 @@
     "subrepo": "chimaera/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.4",
+    "version": "20.4.1",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -812,8 +812,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.4-1"
+    "status": "newest",
+    "origversion": "20.4.1-1"
   },
   {
     "repo": "devuan_unstable",
@@ -2267,7 +2267,7 @@
       "admin"
     ],
     "status": "legacy",
-    "origversion": "18.3-5"
+    "origversion": "18.3-6"
   },
   {
     "repo": "pardus_19",
@@ -2288,7 +2288,7 @@
       "admin"
     ],
     "status": "legacy",
-    "origversion": "18.3-6"
+    "origversion": "18.3-5"
   },
   {
     "repo": "parrot",
