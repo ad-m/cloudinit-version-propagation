@@ -21,26 +21,6 @@
     "repo": "alpine_edge",
     "subrepo": "community",
     "srcname": "cloud-init",
-    "binname": "cloud-init-openrc",
-    "visiblename": "cloud-init-openrc",
-    "version": "20.4.1",
-    "maintainers": [
-      "dermot_bradley@yahoo.com"
-    ],
-    "licenses": [
-      "Apache-2.0 OR GPL-3.0-only"
-    ],
-    "www": [
-      "https://cloud-init.io/"
-    ],
-    "summary": "Cloud instance init scripts (OpenRC init scripts)",
-    "status": "newest",
-    "origversion": "20.4.1-r0"
-  },
-  {
-    "repo": "alpine_edge",
-    "subrepo": "community",
-    "srcname": "cloud-init",
     "binname": "cloud-init-bash-completion",
     "visiblename": "cloud-init-bash-completion",
     "version": "20.4.1",
@@ -54,6 +34,26 @@
       "https://cloud-init.io/"
     ],
     "summary": "Bash completions for cloud-init",
+    "status": "newest",
+    "origversion": "20.4.1-r0"
+  },
+  {
+    "repo": "alpine_edge",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init-openrc",
+    "visiblename": "cloud-init-openrc",
+    "version": "20.4.1",
+    "maintainers": [
+      "dermot_bradley@yahoo.com"
+    ],
+    "licenses": [
+      "Apache-2.0 OR GPL-3.0-only"
+    ],
+    "www": [
+      "https://cloud-init.io/"
+    ],
+    "summary": "Cloud instance init scripts (OpenRC init scripts)",
     "status": "newest",
     "origversion": "20.4.1-r0"
   },
@@ -129,7 +129,7 @@
   },
   {
     "repo": "amazon_1",
-    "subrepo": "main",
+    "subrepo": "updates",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
     "version": "0.7.6",
@@ -144,7 +144,7 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.15.amzn1"
+    "origversion": "0.7.6-2.16.amzn1"
   },
   {
     "repo": "amazon_1",
@@ -167,7 +167,7 @@
   },
   {
     "repo": "amazon_1",
-    "subrepo": "updates",
+    "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
     "version": "0.7.6",
@@ -182,7 +182,7 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.16.amzn1"
+    "origversion": "0.7.6-2.15.amzn1"
   },
   {
     "repo": "amazon_1",
@@ -238,7 +238,7 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "19.3-3.amzn2"
+    "origversion": "19.3-4.amzn2"
   },
   {
     "repo": "amazon_2",
@@ -256,7 +256,7 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "19.3-4.amzn2"
+    "origversion": "19.3-3.amzn2"
   },
   {
     "repo": "amazon_2",
@@ -1331,7 +1331,7 @@
     "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.4",
+    "version": "20.4.1",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -1344,8 +1344,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.4-1"
+    "status": "newest",
+    "origversion": "20.4.1-1"
   },
   {
     "repo": "liguros_20_7",
@@ -2335,7 +2335,7 @@
     "repo": "pureos_landing",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.4",
+    "version": "20.4.1",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -2348,8 +2348,8 @@
     "categories": [
       "misc"
     ],
-    "status": "outdated",
-    "origversion": "20.4-1"
+    "status": "newest",
+    "origversion": "20.4.1-1"
   },
   {
     "repo": "raspbian_oldstable",
@@ -2400,7 +2400,7 @@
     "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "20.4",
+    "version": "20.4.1",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -2413,8 +2413,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "20.4-1"
+    "status": "newest",
+    "origversion": "20.4.1-1"
   },
   {
     "repo": "rosa_server_7_3",
