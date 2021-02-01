@@ -154,6 +154,20 @@
   status: outdated
   origversion: 20.4-alt1
 - repo: amazon_1
+  subrepo: updates
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.6
+  licenses:
+    - GPLv3
+  www:
+    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 0.7.6-2.17.amzn1
+- repo: amazon_1
   subrepo: main
   srcname: cloud-init
   visiblename: cloud-init
@@ -209,20 +223,6 @@
     - System Environment/Base
   status: outdated
   origversion: 0.7.6-2.20.amzn1
-- repo: amazon_1
-  subrepo: updates
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.6
-  licenses:
-    - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: outdated
-  origversion: 0.7.6-2.17.amzn1
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -1098,8 +1098,7 @@
     - admin
   status: newest
   origversion: 20.4.1-1
-- repo: liguros_20_7
-  subrepo: nokit
+- repo: liguros_develop
   srcname: app-emulation/cloud-init
   visiblename: app-emulation/cloud-init
   version: '20.1'
@@ -1115,10 +1114,27 @@
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
+  status: legacy
+  origversion: null
+- repo: liguros_develop
+  srcname: app-emulation/cloud-init
+  visiblename: app-emulation/cloud-init
+  version: '20.4'
+  maintainers:
+    - prometheanfire@gentoo.org
+    - eva@gentoo.org
+  licenses:
+    - GPL-3
+  downloads:
+    - https://launchpad.net/cloud-init/trunk/20.4/+download/cloud-init-20.4.tar.gz
+  www:
+    - https://launchpad.net/cloud-init
+  summary: Cloud instance initialisation magic
+  categories:
+    - app-emulation
   status: outdated
   origversion: null
-- repo: liguros_20_7
-  subrepo: nokit
+- repo: liguros_develop
   srcname: app-emulation/cloud-init
   visiblename: app-emulation/cloud-init
   version: '9999'
@@ -1134,8 +1150,7 @@
     - app-emulation
   status: rolling
   origversion: null
-- repo: liguros_20_7
-  subrepo: nokit
+- repo: liguros_develop
   srcname: app-emulation/cloud-init
   visiblename: app-emulation/cloud-init
   version: '19.4'
@@ -1153,8 +1168,7 @@
     - app-emulation
   status: legacy
   origversion: null
-- repo: liguros_21_1
-  subrepo: nokit
+- repo: liguros_stable
   srcname: app-emulation/cloud-init
   visiblename: app-emulation/cloud-init
   version: '20.1'
@@ -1170,10 +1184,27 @@
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
+  status: legacy
+  origversion: null
+- repo: liguros_stable
+  srcname: app-emulation/cloud-init
+  visiblename: app-emulation/cloud-init
+  version: '20.4'
+  maintainers:
+    - prometheanfire@gentoo.org
+    - eva@gentoo.org
+  licenses:
+    - GPL-3
+  downloads:
+    - https://launchpad.net/cloud-init/trunk/20.4/+download/cloud-init-20.4.tar.gz
+  www:
+    - https://launchpad.net/cloud-init
+  summary: Cloud instance initialisation magic
+  categories:
+    - app-emulation
   status: outdated
   origversion: null
-- repo: liguros_21_1
-  subrepo: nokit
+- repo: liguros_stable
   srcname: app-emulation/cloud-init
   visiblename: app-emulation/cloud-init
   version: '9999'
@@ -1189,8 +1220,7 @@
     - app-emulation
   status: rolling
   origversion: null
-- repo: liguros_21_1
-  subrepo: nokit
+- repo: liguros_stable
   srcname: app-emulation/cloud-init
   visiblename: app-emulation/cloud-init
   version: '19.4'
@@ -1263,7 +1293,7 @@
   categories:
     - Networking/Other
   status: outdated
-  origversion: 20.2-1.mga8
+  origversion: 20.2-2.mga8
 - repo: manjaro_stable
   subrepo: community
   srcname: cloud-init
@@ -1718,7 +1748,7 @@
   categories:
     - System/Management
   status: outdated
-  origversion: 20.2-4.1
+  origversion: 20.2-5.1
 - repo: parabola
   subrepo: community
   srcname: cloud-init
