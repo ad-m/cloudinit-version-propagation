@@ -209,25 +209,6 @@
   },
   {
     "repo": "amazon_1",
-    "subrepo": "updates",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.6",
-    "licenses": [
-      "GPLv3"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.6-2.17.amzn1"
-  },
-  {
-    "repo": "amazon_1",
     "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
@@ -301,6 +282,25 @@
     ],
     "status": "outdated",
     "origversion": "0.7.6-2.20.amzn1"
+  },
+  {
+    "repo": "amazon_1",
+    "subrepo": "updates",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.6",
+    "licenses": [
+      "GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.6-2.17.amzn1"
   },
   {
     "repo": "amazon_2",
