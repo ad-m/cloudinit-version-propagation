@@ -616,6 +616,28 @@
     "subrepo": "AppStream",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
+    "version": "19.4",
+    "maintainers": [
+      "bugs@centos.org"
+    ],
+    "licenses": [
+      "GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.4-11.el8_3.1"
+  },
+  {
+    "repo": "centos_8",
+    "subrepo": "AppStream",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
     "version": "18.5",
     "maintainers": [
       "bugs@centos.org"
@@ -720,28 +742,6 @@
     ],
     "status": "outdated",
     "origversion": "19.4-11.el8"
-  },
-  {
-    "repo": "centos_8",
-    "subrepo": "AppStream",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.4",
-    "maintainers": [
-      "bugs@centos.org"
-    ],
-    "licenses": [
-      "GPLv3"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "19.4-11.el8_3.1"
   },
   {
     "repo": "debian_oldstable",
@@ -1202,7 +1202,7 @@
       "Unspecified"
     ],
     "status": "outdated",
-    "origversion": "20.4-1.fc34"
+    "origversion": "20.4-2.fc34"
   },
   {
     "repo": "freebsd",
@@ -2453,7 +2453,7 @@
       "admin"
     ],
     "status": "legacy",
-    "origversion": "18.3-6"
+    "origversion": "18.3-5"
   },
   {
     "repo": "pardus_19",
@@ -2474,7 +2474,7 @@
       "admin"
     ],
     "status": "legacy",
-    "origversion": "18.3-5"
+    "origversion": "18.3-6"
   },
   {
     "repo": "parrot",
