@@ -209,6 +209,25 @@
   },
   {
     "repo": "amazon_1",
+    "subrepo": "updates",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.6",
+    "licenses": [
+      "GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "0.7.6-2.16.amzn1"
+  },
+  {
+    "repo": "amazon_1",
     "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
@@ -262,25 +281,6 @@
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "0.7.6-2.16.amzn1"
-  },
-  {
-    "repo": "amazon_1",
-    "subrepo": "updates",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.6",
-    "licenses": [
-      "GPLv3"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
     "origversion": "0.7.6-2.20.amzn1"
   },
   {
@@ -301,60 +301,6 @@
     ],
     "status": "outdated",
     "origversion": "0.7.6-2.17.amzn1"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.3",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "19.3-4.amzn2"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.3",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "19.3-2.amzn2"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.3",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "19.3-3.amzn2"
   },
   {
     "repo": "amazon_2",
@@ -427,6 +373,60 @@
     ],
     "status": "legacy",
     "origversion": "18.2-72.amzn2.0.6"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.3",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.3-3.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.3",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.3-4.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.3",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.3-2.amzn2"
   },
   {
     "repo": "amazon_2",
@@ -983,7 +983,7 @@
     "srcname": "net/cloud-init",
     "binname": "py37-cloud-init",
     "visiblename": "net/cloud-init",
-    "version": "20.3",
+    "version": "20.4",
     "maintainers": [
       "andrey@bsdnir.info"
     ],
@@ -1901,25 +1901,6 @@
   },
   {
     "repo": "opensuse_leap_15_0",
-    "subrepo": "updates/oss",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.1",
-    "licenses": [
-      "GPL-3.0 and AGPL-3.0"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init/"
-    ],
-    "summary": "Cloud node initialization tool",
-    "categories": [
-      "System/Management"
-    ],
-    "status": "legacy",
-    "origversion": "19.1-lp150.2.16.1"
-  },
-  {
-    "repo": "opensuse_leap_15_0",
     "subrepo": "main/oss",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
@@ -1955,6 +1936,25 @@
     ],
     "status": "legacy",
     "origversion": "18.5-lp150.2.13.1"
+  },
+  {
+    "repo": "opensuse_leap_15_0",
+    "subrepo": "updates/oss",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.1",
+    "licenses": [
+      "GPL-3.0 and AGPL-3.0"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init/"
+    ],
+    "summary": "Cloud node initialization tool",
+    "categories": [
+      "System/Management"
+    ],
+    "status": "legacy",
+    "origversion": "19.1-lp150.2.16.1"
   },
   {
     "repo": "opensuse_leap_15_0",
@@ -2703,6 +2703,24 @@
       "System Environment/Base"
     ],
     "status": "legacy",
+    "origversion": "0.7.9-9.el7"
+  },
+  {
+    "repo": "scientific_7x",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "licenses": [
+      "GPLv3"
+    ],
+    "www": [
+      "http://launchpad.net/cloud-init"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
     "origversion": "0.7.9-24.el7"
   },
   {
@@ -2722,24 +2740,6 @@
     ],
     "status": "legacy",
     "origversion": "0.7.9-24.el7_5.1"
-  },
-  {
-    "repo": "scientific_7x",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "licenses": [
-      "GPLv3"
-    ],
-    "www": [
-      "http://launchpad.net/cloud-init"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "0.7.9-9.el7"
   },
   {
     "repo": "scientific_7x",
