@@ -4,8 +4,6 @@
   version: 0.7.5
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -21,8 +19,6 @@
     - dermot_bradley@yahoo.com
   licenses:
     - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
   summary: Cloud instance init scripts
   status: outdated
   origversion: 20.4.1-r0
@@ -36,8 +32,6 @@
     - dermot_bradley@yahoo.com
   licenses:
     - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
   summary: Bash completions for cloud-init
   status: outdated
   origversion: 20.4.1-r0
@@ -51,8 +45,6 @@
     - dermot_bradley@yahoo.com
   licenses:
     - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
   summary: Cloud instance init scripts (OpenRC init scripts)
   status: outdated
   origversion: 20.4.1-r0
@@ -66,8 +58,6 @@
     - dermot_bradley@yahoo.com
   licenses:
     - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
   summary: Cloud instance init scripts (documentation)
   status: outdated
   origversion: 20.4.1-r0
@@ -81,8 +71,6 @@
     - dermot_bradley@yahoo.com
   licenses:
     - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
   summary: Cloud instance init scripts
   status: newest
   origversion: 21.1-r0
@@ -96,8 +84,6 @@
     - dermot_bradley@yahoo.com
   licenses:
     - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
   summary: Cloud instance init scripts (OpenRC init scripts)
   status: newest
   origversion: 21.1-r0
@@ -111,8 +97,6 @@
     - dermot_bradley@yahoo.com
   licenses:
     - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
   summary: Bash completions for cloud-init
   status: newest
   origversion: 21.1-r0
@@ -126,8 +110,6 @@
     - dermot_bradley@yahoo.com
   licenses:
     - Apache-2.0 OR GPL-3.0-only
-  www:
-    - https://cloud-init.io/
   summary: Cloud instance init scripts (documentation)
   status: newest
   origversion: 21.1-r0
@@ -160,8 +142,6 @@
   version: 0.7.6
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -174,8 +154,18 @@
   version: 0.7.6
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 0.7.6-2.21.amzn1
+- repo: amazon_1
+  subrepo: updates
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.6
+  licenses:
+    - GPLv3
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -188,22 +178,6 @@
   version: 0.7.6
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: outdated
-  origversion: 0.7.6-2.20.amzn1
-- repo: amazon_1
-  subrepo: updates
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.6
-  licenses:
-    - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -216,21 +190,17 @@
   version: 0.7.6
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
   status: outdated
-  origversion: 0.7.6-2.21.amzn1
+  origversion: 0.7.6-2.20.amzn1
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -242,8 +212,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -255,8 +223,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -268,8 +234,6 @@
   version: '19.3'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -281,8 +245,6 @@
   version: '19.3'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -294,8 +256,6 @@
   version: '19.3'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -307,8 +267,6 @@
   version: '19.3'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -320,8 +278,6 @@
   version: '18.2'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -333,8 +289,6 @@
   version: '18.2'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -346,8 +300,6 @@
   version: '18.2'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -359,8 +311,6 @@
   version: '18.2'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -372,8 +322,6 @@
   version: '18.5'
   licenses:
     - GPLv3 or Apache 2.0
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -387,8 +335,17 @@
   version: '20.4'
   licenses:
     - GPL3
-  www:
-    - https://cloud-init.io/
+  summary: The standard for customising cloud instances
+  status: outdated
+  origversion: 20.4-1
+- repo: artix
+  subrepo: galaxy
+  srcname: cloud-init
+  binname: cloud-init
+  visiblename: cloud-init
+  version: '20.4'
+  licenses:
+    - GPL3
   summary: The standard for customising cloud instances
   status: outdated
   origversion: 20.4-1
@@ -399,8 +356,6 @@
   version: 0.7.5
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -413,8 +368,6 @@
   version: '19.4'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -427,8 +380,6 @@
   version: '19.4'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -441,8 +392,6 @@
   version: '19.4'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -457,8 +406,6 @@
     - bugs@centos.org
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -473,8 +420,6 @@
     - bugs@centos.org
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -489,8 +434,6 @@
     - bugs@centos.org
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -505,8 +448,6 @@
     - bugs@centos.org
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -521,8 +462,6 @@
     - bugs@centos.org
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -537,8 +476,6 @@
     - bugs@centos.org
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -556,8 +493,6 @@
     - plessy@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -572,8 +507,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -588,8 +521,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - misc
   status: outdated
@@ -604,8 +535,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -620,8 +549,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -636,8 +563,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -652,8 +577,6 @@
     - acid@debian.org
     - miguel@miguel.cc
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -670,8 +593,6 @@
     - plessy@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -686,8 +607,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -702,8 +621,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -718,8 +635,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -731,8 +646,6 @@
   version: '20.4'
   maintainers:
     - andrey@bsdnir.info
-  www:
-    - https://cloud-init.io/
   summary: Init scripts for use on cloud images
   categories:
     - net
@@ -744,8 +657,6 @@
   version: 0.7.4
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -758,8 +669,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -772,8 +681,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -786,8 +693,6 @@
   version: '17.1'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -800,8 +705,6 @@
   version: '17.1'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -814,8 +717,6 @@
   version: '17.1'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -828,8 +729,6 @@
   version: '17.1'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -842,8 +741,6 @@
   version: '17.1'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -856,8 +753,6 @@
   version: '19.4'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -870,8 +765,6 @@
   version: '19.4'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -883,8 +776,6 @@
   version: '20.4'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Unspecified
@@ -897,8 +788,6 @@
   version: 20.4.1
   maintainers:
     - andrey@bsdnir.info
-  www:
-    - https://cloud-init.io/
   summary: Init scripts for use on cloud images
   categories:
     - net
@@ -914,8 +803,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -931,10 +818,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/17.2/+download/cloud-init-17.2.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: cloud initialisation magic
   categories:
     - app-emulation
@@ -950,10 +833,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/18.4/+download/cloud-init-18.4.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -969,10 +848,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/18.5/+download/cloud-init-18.5.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -987,8 +862,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1003,10 +876,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/20.1/+download/cloud-init-20.1.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1021,10 +890,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/20.4/+download/cloud-init-20.4.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1039,10 +904,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/19.4/+download/cloud-init-19.4.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1052,8 +913,6 @@
   srcname: haiku-misc/cloud_init
   visiblename: haiku-misc/cloud_init
   version: '1.1'
-  www:
-    - https://gitlab.com/kallisti5/cloud-init-haiku
   categories:
     - haiku-misc
   status: outdated
@@ -1075,8 +934,6 @@
   version: '1.3'
   licenses:
     - GPL-3.0
-  www:
-    - https://github.com/IBM/ibmi-cloudinit
   summary: Provides Early Initialization for IBM i Cloud Instances
   categories:
     - Unspecified
@@ -1092,8 +949,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -1107,10 +962,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/20.1/+download/cloud-init-20.1.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1125,10 +976,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/20.4/+download/cloud-init-20.4.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1143,8 +990,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1159,10 +1004,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/19.4/+download/cloud-init-19.4.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1177,10 +1018,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/20.1/+download/cloud-init-20.1.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1195,10 +1032,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/20.4/+download/cloud-init-20.4.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1213,8 +1046,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1229,10 +1060,6 @@
     - eva@gentoo.org
   licenses:
     - GPL-3
-  downloads:
-    - https://launchpad.net/cloud-init/trunk/19.4/+download/cloud-init-19.4.tar.gz
-  www:
-    - https://launchpad.net/cloud-init
   summary: Cloud instance initialisation magic
   categories:
     - app-emulation
@@ -1245,8 +1072,6 @@
   version: 0.7.5
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Networking/Other
@@ -1259,8 +1084,6 @@
   version: 0.7.5
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Networking/Other
@@ -1273,8 +1096,6 @@
   version: 0.7.5
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Networking/Other
@@ -1287,8 +1108,6 @@
   version: '20.2'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - https://github.com/canonical/cloud-init
   summary: Cloud instance init scripts
   categories:
     - Networking/Other
@@ -1302,8 +1121,6 @@
   version: '20.4'
   licenses:
     - GPL3
-  www:
-    - https://cloud-init.io/
   summary: The standard for customising cloud instances
   status: outdated
   origversion: 20.4-1
@@ -1315,8 +1132,6 @@
   version: '20.4'
   licenses:
     - GPL3
-  www:
-    - https://cloud-init.io/
   summary: The standard for customising cloud instances
   status: outdated
   origversion: 20.4-1
@@ -1328,8 +1143,6 @@
   version: '20.4'
   licenses:
     - GPL3
-  www:
-    - https://cloud-init.io/
   summary: The standard for customising cloud instances
   status: outdated
   origversion: 20.4-1
@@ -1340,8 +1153,6 @@
   maintainers:
     - georges.dubus@compiletoi.net
     - nix@314.ch
-  www:
-    - https://cloudinit.readthedocs.org/
   summary: Provides configuration and customization of cloud instance
   status: outdated
   origversion: null
@@ -1352,8 +1163,6 @@
   maintainers:
     - georges.dubus@compiletoi.net
     - nix@314.ch
-  www:
-    - https://cloudinit.readthedocs.org/
   summary: Provides configuration and customization of cloud instance
   status: outdated
   origversion: null
@@ -1364,8 +1173,6 @@
   version: '17.1'
   licenses:
     - ASL 2.0 or GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: the defacto multi-distribution package that handles early initialization
     of a cloud instance.
   categories:
@@ -1407,8 +1214,6 @@
   version: '18.2'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1421,8 +1226,6 @@
   version: '18.5'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1435,8 +1238,6 @@
   version: '19.1'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1449,8 +1250,6 @@
   version: '19.1'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1463,8 +1262,6 @@
   version: '19.2'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1477,8 +1274,6 @@
   version: '20.2'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1491,8 +1286,6 @@
   version: '20.2'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1505,8 +1298,6 @@
   version: '18.4'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1519,8 +1310,6 @@
   version: '19.1'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1533,8 +1322,6 @@
   version: '19.1'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1547,8 +1334,6 @@
   version: '19.2'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1561,8 +1346,6 @@
   version: '19.4'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1575,8 +1358,6 @@
   version: '19.4'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1589,8 +1370,6 @@
   version: '19.4'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1603,8 +1382,6 @@
   version: '19.4'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1617,8 +1394,6 @@
   version: '20.2'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1631,8 +1406,6 @@
   version: '20.2'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1645,8 +1418,6 @@
   version: '20.2'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1659,8 +1430,6 @@
   version: '20.2'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1673,8 +1442,6 @@
   version: '19.4'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1687,8 +1454,6 @@
   version: '19.4'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1701,8 +1466,6 @@
   version: 0.7.6
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1715,8 +1478,6 @@
   version: 0.7.8
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1729,8 +1490,6 @@
   version: '17.1'
   licenses:
     - GPL-3.0 and AGPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1743,8 +1502,6 @@
   version: '18.2'
   licenses:
     - GPL-3.0-only AND AGPL-3.0-only
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1756,8 +1513,6 @@
   version: '20.2'
   licenses:
     - GPL-3.0
-  www:
-    - http://launchpad.net/cloud-init/
   summary: Cloud node initialization tool
   categories:
     - System/Management
@@ -1771,8 +1526,6 @@
   version: '20.4'
   licenses:
     - GPL3
-  www:
-    - https://cloud-init.io/
   summary: The standard for customising cloud instances
   status: outdated
   origversion: 20.4-1
@@ -1788,8 +1541,6 @@
     - plessy@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -1804,8 +1555,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -1820,8 +1569,6 @@
     - plessy@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: legacy
@@ -1836,8 +1583,6 @@
     - plessy@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: legacy
@@ -1852,8 +1597,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -1867,8 +1610,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - misc
   status: outdated
@@ -1882,8 +1623,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - misc
   status: outdated
@@ -1900,8 +1639,6 @@
     - plessy@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -1916,8 +1653,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -1932,8 +1667,6 @@
     - noahm@debian.org
     - waldi@debian.org
     - zigo@debian.org
-  www:
-    - https://launchpad.net/cloud-init
   categories:
     - admin
   status: outdated
@@ -1947,8 +1680,6 @@
     - alex2048@mail.ru
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -1963,8 +1694,6 @@
     - alex2048@mail.ru
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -1979,8 +1708,6 @@
     - alex2048@mail.ru
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -1989,11 +1716,20 @@
 - repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
+  version: '18.2'
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.2-1.el7
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2005,8 +1741,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2018,8 +1752,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2031,8 +1763,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2044,8 +1774,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2057,8 +1785,6 @@
   version: 0.7.9
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2070,21 +1796,6 @@
   version: '18.2'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.2-1.el7
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.2'
-  licenses:
-    - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2096,8 +1807,6 @@
   version: '18.2'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2109,8 +1818,6 @@
   version: '18.5'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2122,8 +1829,6 @@
   version: '18.5'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2135,8 +1840,6 @@
   version: '18.5'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2148,8 +1851,6 @@
   version: '19.4'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2161,8 +1862,6 @@
   version: '19.4'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2174,8 +1873,6 @@
   version: '19.4'
   licenses:
     - GPLv3
-  www:
-    - http://launchpad.net/cloud-init
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
@@ -2364,8 +2061,6 @@
   version: '20.1'
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  www:
-    - https://cloud-init.io/
   categories:
     - admin
   status: legacy
@@ -2377,8 +2072,6 @@
   version: 20.4.1
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  www:
-    - https://cloud-init.io/
   categories:
     - admin
   status: outdated
@@ -2390,8 +2083,6 @@
   version: '20.3'
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  www:
-    - https://cloud-init.io/
   categories:
     - admin
   status: legacy
@@ -2403,8 +2094,6 @@
   version: 20.4.1
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  www:
-    - https://cloud-init.io/
   categories:
     - admin
   status: outdated
