@@ -136,30 +136,6 @@
   status: outdated
   origversion: 20.4-alt1
 - repo: amazon_1
-  subrepo: main
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.6
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: outdated
-  origversion: 0.7.6-2.15.amzn1
-- repo: amazon_1
-  subrepo: updates
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.6
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: outdated
-  origversion: 0.7.6-2.21.amzn1
-- repo: amazon_1
   subrepo: updates
   srcname: cloud-init
   visiblename: cloud-init
@@ -195,6 +171,30 @@
     - System Environment/Base
   status: outdated
   origversion: 0.7.6-2.20.amzn1
+- repo: amazon_1
+  subrepo: main
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.6
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 0.7.6-2.15.amzn1
+- repo: amazon_1
+  subrepo: updates
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.6
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 0.7.6-2.21.amzn1
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -206,17 +206,6 @@
     - System Environment/Base
   status: legacy
   origversion: 0.7.9-4.amzn2.8
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.5'
-  licenses:
-    - GPLv3 or Apache 2.0
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.5-2.amzn2
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -327,6 +316,17 @@
     - System Environment/Base
   status: legacy
   origversion: 18.2-72.amzn2.0.7
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.5'
+  licenses:
+    - GPLv3 or Apache 2.0
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.5-2.amzn2
 - repo: arch
   subrepo: community
   srcname: cloud-init
@@ -362,7 +362,7 @@
   status: outdated
   origversion: 0.7.5-8.el6.centos.2
 - repo: centos_7
-  subrepo: os
+  subrepo: updates
   srcname: cloud-init
   visiblename: cloud-init
   version: '19.4'
@@ -372,7 +372,7 @@
   categories:
     - System Environment/Base
   status: outdated
-  origversion: 19.4-7.el7.centos
+  origversion: 19.4-7.el7.centos.3
 - repo: centos_7
   subrepo: updates
   srcname: cloud-init
@@ -386,7 +386,7 @@
   status: outdated
   origversion: 19.4-7.el7.centos.2
 - repo: centos_7
-  subrepo: updates
+  subrepo: os
   srcname: cloud-init
   visiblename: cloud-init
   version: '19.4'
@@ -396,21 +396,7 @@
   categories:
     - System Environment/Base
   status: outdated
-  origversion: 19.4-7.el7.centos.3
-- repo: centos_8
-  subrepo: AppStream
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.4'
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: outdated
-  origversion: 19.4-11.el8
+  origversion: 19.4-7.el7.centos
 - repo: centos_8
   subrepo: AppStream
   srcname: cloud-init
@@ -467,6 +453,20 @@
     - System Environment/Base
   status: outdated
   origversion: 19.4-1.el8.7
+- repo: centos_8
+  subrepo: AppStream
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.4-11.el8
 - repo: centos_8
   subrepo: AppStream
   srcname: cloud-init
