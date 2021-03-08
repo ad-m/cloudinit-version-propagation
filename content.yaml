@@ -198,58 +198,14 @@
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-4.amzn2.8
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-4.amzn2.6
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-4.amzn2.9
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.3'
+  version: '18.5'
   licenses:
     - GPLv3 or Apache 2.0
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: outdated
-  origversion: 19.3-3.amzn2
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.3'
-  licenses:
-    - GPLv3 or Apache 2.0
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: outdated
-  origversion: 19.3-2.amzn2
+  status: legacy
+  origversion: 18.5-2.amzn2
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -271,7 +227,40 @@
   categories:
     - System Environment/Base
   status: outdated
+  origversion: 19.3-3.amzn2
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.3'
+  licenses:
+    - GPLv3 or Apache 2.0
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
   origversion: 19.3-4.amzn2
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.3'
+  licenses:
+    - GPLv3 or Apache 2.0
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.3-2.amzn2
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.2'
+  licenses:
+    - GPLv3 or Apache 2.0
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.2-72.amzn2.0.4
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -304,29 +293,40 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.2-72.amzn2.0.4
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.2'
-  licenses:
-    - GPLv3 or Apache 2.0
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
   origversion: 18.2-72.amzn2.0.7
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
-  version: '18.5'
+  version: 0.7.9
   licenses:
-    - GPLv3 or Apache 2.0
+    - GPLv3
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.5-2.amzn2
+  origversion: 0.7.9-4.amzn2.6
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-4.amzn2.9
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-4.amzn2.8
 - repo: arch
   subrepo: community
   srcname: cloud-init
@@ -956,20 +956,6 @@
 - repo: liguros_develop
   srcname: app-emulation/cloud-init
   visiblename: app-emulation/cloud-init
-  version: '9999'
-  maintainers:
-    - prometheanfire@gentoo.org
-    - eva@gentoo.org
-  licenses:
-    - GPL-3
-  summary: Cloud instance initialisation magic
-  categories:
-    - app-emulation
-  status: rolling
-  origversion: null
-- repo: liguros_develop
-  srcname: app-emulation/cloud-init
-  visiblename: app-emulation/cloud-init
   version: '20.1'
   maintainers:
     - prometheanfire@gentoo.org
@@ -994,6 +980,20 @@
   categories:
     - app-emulation
   status: outdated
+  origversion: null
+- repo: liguros_develop
+  srcname: app-emulation/cloud-init
+  visiblename: app-emulation/cloud-init
+  version: '9999'
+  maintainers:
+    - prometheanfire@gentoo.org
+    - eva@gentoo.org
+  licenses:
+    - GPL-3
+  summary: Cloud instance initialisation magic
+  categories:
+    - app-emulation
+  status: rolling
   origversion: null
 - repo: liguros_develop
   srcname: app-emulation/cloud-init
@@ -1290,7 +1290,7 @@
   categories:
     - System/Management
   status: outdated
-  origversion: 20.2-lp151.2.24.1
+  origversion: 20.2-lp151.2.27.1
 - repo: opensuse_leap_15_1
   subrepo: updates/oss
   srcname: cloud-init
@@ -1302,7 +1302,7 @@
   categories:
     - System/Management
   status: outdated
-  origversion: 20.2-lp151.2.27.1
+  origversion: 20.2-lp151.2.24.1
 - repo: opensuse_leap_15_1
   subrepo: main/oss
   srcname: cloud-init
@@ -1747,17 +1747,6 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 0.7.9-24.el7
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
   origversion: 0.7.9-24.el7_5.1
 - repo: scientific_7x
   srcname: cloud-init
@@ -1836,6 +1825,17 @@
     - System Environment/Base
   status: legacy
   origversion: 18.2-1.el7_6.2
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-24.el7
 - repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
