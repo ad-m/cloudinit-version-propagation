@@ -231,7 +231,29 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.2-72.amzn2.0.6
+  origversion: 18.2-72.amzn2.0.4
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-4.amzn2.6
+- repo: amazon_2
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-4.amzn2.8
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -242,7 +264,7 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.2-72.amzn2.0.4
+  origversion: 18.2-72.amzn2.0.6
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -276,28 +298,6 @@
     - System Environment/Base
   status: legacy
   origversion: 0.7.9-4.amzn2.9
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-4.amzn2.6
-- repo: amazon_2
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-4.amzn2.8
 - repo: amazon_2
   srcname: cloud-init
   visiblename: cloud-init
@@ -1201,12 +1201,12 @@
   srcname: cloud-init
   binname: cloud-init
   visiblename: cloud-init
-  version: '20.4'
+  version: '21.1'
   licenses:
     - GPL3
   summary: The standard for customising cloud instances
-  status: outdated
-  origversion: 20.4-1
+  status: newest
+  origversion: 21.1-3
 - repo: nix_stable
   name: cloud-init
   visiblename: cloud-init
@@ -1583,12 +1583,12 @@
   srcname: cloud-init
   binname: cloud-init
   visiblename: cloud-init
-  version: '20.4'
+  version: '21.1'
   licenses:
     - GPL3
   summary: The standard for customising cloud instances
-  status: outdated
-  origversion: 20.4-1
+  status: newest
+  origversion: 21.1-3
 - repo: pardus_17
   subrepo: main
   srcname: cloud-init
@@ -1776,61 +1776,6 @@
 - repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
-  version: '18.5'
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.5-6.el7
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.5'
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.5-6.el7_8.5
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.2'
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.2-1.el7_6.1
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.2'
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.2-1.el7_6.2
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.5'
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.5-3.el7
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
   version: 0.7.9
   licenses:
     - GPLv3
@@ -1905,6 +1850,61 @@
     - System Environment/Base
   status: legacy
   origversion: 18.2-1.el7
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.2'
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.2-1.el7_6.1
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.2'
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.2-1.el7_6.2
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.5'
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.5-3.el7
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.5'
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.5-6.el7
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '18.5'
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 18.5-6.el7_8.5
 - repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
