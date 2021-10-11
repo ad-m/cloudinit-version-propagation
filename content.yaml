@@ -679,7 +679,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.4.1-2
+  origversion: 20.4.1-2+deb11u1
 - repo: debian_12
   subrepo: bookworm/main
   srcname: cloud-init
@@ -737,7 +737,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.4.1-2
+  origversion: 20.4.1-2+deb11u1
 - repo: debian_testing
   subrepo: testing/main
   srcname: cloud-init
@@ -835,7 +835,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.4.1-2
+  origversion: 20.4.1-2+deb11u1
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: cloud-init
@@ -922,18 +922,6 @@
   status: outdated
   origversion: 17.1-7.fc29
 - repo: fedora_30
-  subrepo: release
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '17.1'
-  licenses:
-    - ASL 2.0 or GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - Unspecified
-  status: outdated
-  origversion: 17.1-8.fc30
-- repo: fedora_30
   subrepo: updates
   srcname: cloud-init
   visiblename: cloud-init
@@ -945,6 +933,18 @@
     - Unspecified
   status: outdated
   origversion: 17.1-9.fc30
+- repo: fedora_30
+  subrepo: release
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '17.1'
+  licenses:
+    - ASL 2.0 or GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - Unspecified
+  status: outdated
+  origversion: 17.1-8.fc30
 - repo: fedora_31
   subrepo: release
   srcname: cloud-init
@@ -1317,6 +1317,17 @@
   summary: The standard for customising cloud instances
   status: newest
   origversion: 21.3-3
+- repo: manjaro_staging
+  subrepo: community
+  srcname: cloud-init
+  binname: cloud-init
+  visiblename: cloud-init
+  version: '21.3'
+  licenses:
+    - GPL3
+  summary: The standard for customising cloud instances
+  status: newest
+  origversion: 21.3-3
 - repo: manjaro_testing
   subrepo: community
   srcname: cloud-init
@@ -1666,18 +1677,6 @@
   status: outdated
   origversion: 21.2-lp152.5.27.1
 - repo: opensuse_leap_15_2
-  subrepo: main/oss
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '19.4'
-  licenses:
-    - GPL-3.0
-  summary: Cloud node initialization tool
-  categories:
-    - System/Management
-  status: legacy
-  origversion: 19.4-lp152.4.1
-- repo: opensuse_leap_15_2
   subrepo: updates/oss
   srcname: cloud-init
   visiblename: cloud-init
@@ -1689,6 +1688,18 @@
     - System/Management
   status: legacy
   origversion: 19.4-lp152.5.3.1
+- repo: opensuse_leap_15_2
+  subrepo: main/oss
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  licenses:
+    - GPL-3.0
+  summary: Cloud node initialization tool
+  categories:
+    - System/Management
+  status: legacy
+  origversion: 19.4-lp152.4.1
 - repo: opensuse_leap_15_3
   subrepo: main/oss
   srcname: cloud-init
@@ -1701,6 +1712,18 @@
     - System/Management
   status: outdated
   origversion: 20.2-lp153.4.21
+- repo: opensuse_leap_42_3
+  subrepo: main/oss
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.6
+  licenses:
+    - GPL-3.0
+  summary: Cloud node initialization tool
+  categories:
+    - System/Management
+  status: legacy
+  origversion: 0.7.6-29.2
 - repo: opensuse_leap_42_3
   subrepo: updates/oss
   srcname: cloud-init
@@ -1737,18 +1760,6 @@
     - System/Management
   status: outdated
   origversion: 18.2-37.1
-- repo: opensuse_leap_42_3
-  subrepo: main/oss
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.6
-  licenses:
-    - GPL-3.0
-  summary: Cloud node initialization tool
-  categories:
-    - System/Management
-  status: legacy
-  origversion: 0.7.6-29.2
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: cloud-init
@@ -1868,7 +1879,7 @@
   categories:
     - misc
   status: outdated
-  origversion: 20.4.1-2
+  origversion: 20.4.1-2+deb11u1
 - repo: raspbian_oldstable
   subrepo: main
   srcname: cloud-init
@@ -1896,7 +1907,7 @@
   categories:
     - admin
   status: outdated
-  origversion: 20.4.1-2
+  origversion: 20.4.1-2+deb11u1
 - repo: raspbian_testing
   subrepo: main
   srcname: cloud-init
@@ -2028,28 +2039,6 @@
   categories:
     - System Environment/Base
   status: legacy
-  origversion: 18.5-3.el7
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.5'
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 18.5-6.el7
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: '18.5'
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
   origversion: 18.5-6.el7_8.5
 - repo: scientific_7x
   srcname: cloud-init
@@ -2076,25 +2065,58 @@
 - repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
-  version: '19.4'
+  version: '18.5'
   licenses:
     - GPLv3
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: outdated
-  origversion: 19.4-7.el7_9.3
+  status: legacy
+  origversion: 18.5-6.el7
 - repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
-  version: '19.4'
+  version: '18.5'
   licenses:
     - GPLv3
   summary: Cloud instance init scripts
   categories:
     - System Environment/Base
-  status: outdated
-  origversion: 19.4-7.el7_9.4
+  status: legacy
+  origversion: 18.5-3.el7
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-24.el7
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-24.el7_5.1
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.9
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: legacy
+  origversion: 0.7.9-9.el7
 - repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
@@ -2153,39 +2175,6 @@
 - repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-24.el7_5.1
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-9.el7
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.9
-  licenses:
-    - GPLv3
-  summary: Cloud instance init scripts
-  categories:
-    - System Environment/Base
-  status: legacy
-  origversion: 0.7.9-24.el7
-- repo: scientific_7x
-  srcname: cloud-init
-  visiblename: cloud-init
   version: '18.2'
   licenses:
     - GPLv3
@@ -2204,18 +2193,29 @@
   categories:
     - System Environment/Base
   status: outdated
-  origversion: 19.4-7.el7_9.5
-- repo: trisquel_6_0
-  subrepo: toutatis-updates/main
+  origversion: 19.4-7.el7_9.3
+- repo: scientific_7x
   srcname: cloud-init
   visiblename: cloud-init
-  version: 0.6.3
-  maintainers:
-    - smoser@ubuntu.com
+  version: '19.4'
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
   categories:
-    - admin
+    - System Environment/Base
   status: outdated
-  origversion: 0.6.3-0ubuntu1.25
+  origversion: 19.4-7.el7_9.4
+- repo: scientific_7x
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: '19.4'
+  licenses:
+    - GPLv3
+  summary: Cloud instance init scripts
+  categories:
+    - System Environment/Base
+  status: outdated
+  origversion: 19.4-7.el7_9.5
 - repo: trisquel_6_0
   subrepo: toutatis/main
   srcname: cloud-init
@@ -2227,17 +2227,17 @@
     - admin
   status: outdated
   origversion: 0.6.3-0ubuntu1
-- repo: trisquel_7_0
-  subrepo: belenos-updates/main
+- repo: trisquel_6_0
+  subrepo: toutatis-updates/main
   srcname: cloud-init
   visiblename: cloud-init
-  version: 0.7.5
+  version: 0.6.3
   maintainers:
     - smoser@ubuntu.com
   categories:
     - admin
   status: outdated
-  origversion: 0.7.5-0ubuntu1.23
+  origversion: 0.6.3-0ubuntu1.25
 - repo: trisquel_7_0
   subrepo: belenos/main
   srcname: cloud-init
@@ -2249,6 +2249,17 @@
     - admin
   status: outdated
   origversion: 0.7.5-0ubuntu1
+- repo: trisquel_7_0
+  subrepo: belenos-updates/main
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.5
+  maintainers:
+    - smoser@ubuntu.com
+  categories:
+    - admin
+  status: outdated
+  origversion: 0.7.5-0ubuntu1.23
 - repo: trisquel_8_0
   subrepo: flidas-updates/main
   srcname: cloud-init
@@ -2294,17 +2305,6 @@
   status: outdated
   origversion: 18.2-14-g6d48d265-0ubuntu1
 - repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 0.7.5
-  maintainers:
-    - smoser@ubuntu.com
-  categories:
-    - admin
-  status: outdated
-  origversion: 0.7.5-0ubuntu1
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: cloud-init
   visiblename: cloud-init
@@ -2315,6 +2315,17 @@
     - admin
   status: outdated
   origversion: 0.7.5-0ubuntu1.23
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 0.7.5
+  maintainers:
+    - smoser@ubuntu.com
+  categories:
+    - admin
+  status: outdated
+  origversion: 0.7.5-0ubuntu1
 - repo: ubuntu_16_04
   subrepo: xenial-updates/main
   srcname: cloud-init
@@ -2360,17 +2371,6 @@
   status: outdated
   origversion: 18.2-14-g6d48d265-0ubuntu1
 - repo: ubuntu_20_04
-  subrepo: focal-updates/main
-  srcname: cloud-init
-  visiblename: cloud-init
-  version: 21.3-1-g6803368d
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - admin
-  status: ignored
-  origversion: 21.3-1-g6803368d-0ubuntu1~20.04.3
-- repo: ubuntu_20_04
   subrepo: focal/main
   srcname: cloud-init
   visiblename: cloud-init
@@ -2381,17 +2381,17 @@
     - admin
   status: outdated
   origversion: 20.1-10-g71af48df-0ubuntu5
-- repo: ubuntu_20_10
-  subrepo: groovy-updates/main
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
   srcname: cloud-init
   visiblename: cloud-init
-  version: 21.2-3-g899bfaa9
+  version: 21.3-1-g6803368d
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - admin
-  status: outdated
-  origversion: 21.2-3-g899bfaa9-0ubuntu2~20.10.1
+  status: ignored
+  origversion: 21.3-1-g6803368d-0ubuntu1~20.04.3
 - repo: ubuntu_20_10
   subrepo: groovy/main
   srcname: cloud-init
@@ -2403,6 +2403,17 @@
     - admin
   status: legacy
   origversion: 20.3-15-g6d332e5c-0ubuntu1
+- repo: ubuntu_20_10
+  subrepo: groovy-updates/main
+  srcname: cloud-init
+  visiblename: cloud-init
+  version: 21.2-3-g899bfaa9
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - admin
+  status: outdated
+  origversion: 21.2-3-g899bfaa9-0ubuntu2~20.10.1
 - repo: ubuntu_21_04
   subrepo: hirsute-updates/main
   srcname: cloud-init
@@ -2435,7 +2446,7 @@
   categories:
     - admin
   status: ignored
-  origversion: 21.3-1-g6803368d-0ubuntu1~21.04.3
+  origversion: 21.3-1-g6803368d-0ubuntu1~21.04.4
 - repo: ubuntu_21_10
   subrepo: impish/main
   srcname: cloud-init
