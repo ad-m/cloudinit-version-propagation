@@ -75,23 +75,6 @@
     "repo": "alpine_3_13",
     "subrepo": "community",
     "srcname": "cloud-init",
-    "binname": "cloud-init-openrc",
-    "visiblename": "cloud-init-openrc",
-    "version": "20.4.1",
-    "maintainers": [
-      "dermot_bradley@yahoo.com"
-    ],
-    "licenses": [
-      "Apache-2.0 OR GPL-3.0-only"
-    ],
-    "summary": "Cloud instance init scripts (OpenRC init scripts)",
-    "status": "outdated",
-    "origversion": "20.4.1-r1"
-  },
-  {
-    "repo": "alpine_3_13",
-    "subrepo": "community",
-    "srcname": "cloud-init",
     "binname": "cloud-init",
     "visiblename": "cloud-init",
     "version": "20.4.1",
@@ -102,6 +85,23 @@
       "Apache-2.0 OR GPL-3.0-only"
     ],
     "summary": "Cloud instance init scripts",
+    "status": "outdated",
+    "origversion": "20.4.1-r1"
+  },
+  {
+    "repo": "alpine_3_13",
+    "subrepo": "community",
+    "srcname": "cloud-init",
+    "binname": "cloud-init-openrc",
+    "visiblename": "cloud-init-openrc",
+    "version": "20.4.1",
+    "maintainers": [
+      "dermot_bradley@yahoo.com"
+    ],
+    "licenses": [
+      "Apache-2.0 OR GPL-3.0-only"
+    ],
+    "summary": "Cloud instance init scripts (OpenRC init scripts)",
     "status": "outdated",
     "origversion": "20.4.1-r1"
   },
@@ -322,38 +322,6 @@
   },
   {
     "repo": "amazon_1",
-    "subrepo": "main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.6",
-    "licenses": [
-      "GPLv3"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.6-2.15.amzn1"
-  },
-  {
-    "repo": "amazon_1",
-    "subrepo": "updates",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.6",
-    "licenses": [
-      "GPLv3"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "0.7.6-2.20.amzn1"
-  },
-  {
-    "repo": "amazon_1",
     "subrepo": "updates",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
@@ -417,109 +385,36 @@
     "origversion": "0.7.6-2.21.amzn1"
   },
   {
-    "repo": "amazon_2",
+    "repo": "amazon_1",
+    "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "18.2",
+    "version": "0.7.6",
     "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.4"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.7"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.6"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.3",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
+      "GPLv3"
     ],
     "summary": "Cloud instance init scripts",
     "categories": [
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "19.3-43.amzn2"
+    "origversion": "0.7.6-2.15.amzn1"
   },
   {
-    "repo": "amazon_2",
+    "repo": "amazon_1",
+    "subrepo": "updates",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "19.3",
+    "version": "0.7.6",
     "licenses": [
-      "GPLv3 or Apache 2.0"
+      "GPLv3"
     ],
     "summary": "Cloud instance init scripts",
     "categories": [
       "System Environment/Base"
     ],
     "status": "outdated",
-    "origversion": "19.3-3.amzn2"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "19.3",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "outdated",
-    "origversion": "19.3-5.amzn2"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "18.2",
-    "licenses": [
-      "GPLv3 or Apache 2.0"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "18.2-72.amzn2.0.5"
+    "origversion": "0.7.6-2.20.amzn1"
   },
   {
     "repo": "amazon_2",
@@ -535,21 +430,6 @@
     ],
     "status": "legacy",
     "origversion": "0.7.9-4.amzn2.6"
-  },
-  {
-    "repo": "amazon_2",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "licenses": [
-      "GPLv3"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "0.7.9-4.amzn2.9"
   },
   {
     "repo": "amazon_2",
@@ -615,6 +495,111 @@
     "repo": "amazon_2",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
+    "version": "19.3",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.3-43.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.3",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.3-3.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "19.3",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "outdated",
+    "origversion": "19.3-5.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.4"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.6"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.5"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "18.2",
+    "licenses": [
+      "GPLv3 or Apache 2.0"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "18.2-72.amzn2.0.7"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
     "version": "18.5",
     "licenses": [
       "GPLv3 or Apache 2.0"
@@ -625,6 +610,21 @@
     ],
     "status": "legacy",
     "origversion": "18.5-2.amzn2"
+  },
+  {
+    "repo": "amazon_2",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "licenses": [
+      "GPLv3"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "0.7.9-4.amzn2.9"
   },
   {
     "repo": "arch",
@@ -1588,7 +1588,7 @@
     "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "21.3",
+    "version": "21.4",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -1598,8 +1598,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "21.3-2"
+    "status": "newest",
+    "origversion": "21.4-1"
   },
   {
     "repo": "liguros_develop",
@@ -2592,7 +2592,7 @@
     "subrepo": "main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
-    "version": "21.3",
+    "version": "21.4",
     "maintainers": [
       "debian-cloud@lists.debian.org",
       "noahm@debian.org",
@@ -2602,8 +2602,8 @@
     "categories": [
       "admin"
     ],
-    "status": "outdated",
-    "origversion": "21.3-2"
+    "status": "newest",
+    "origversion": "21.4-1"
   },
   {
     "repo": "rocky_8",
@@ -2763,6 +2763,36 @@
       "System Environment/Base"
     ],
     "status": "legacy",
+    "origversion": "0.7.9-24.el7"
+  },
+  {
+    "repo": "scientific_7x",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "licenses": [
+      "GPLv3"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
+    "origversion": "0.7.9-24.el7_5.1"
+  },
+  {
+    "repo": "scientific_7x",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "0.7.9",
+    "licenses": [
+      "GPLv3"
+    ],
+    "summary": "Cloud instance init scripts",
+    "categories": [
+      "System Environment/Base"
+    ],
+    "status": "legacy",
     "origversion": "0.7.9-9.el7"
   },
   {
@@ -2854,36 +2884,6 @@
     ],
     "status": "legacy",
     "origversion": "18.2-1.el7_6.2"
-  },
-  {
-    "repo": "scientific_7x",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "licenses": [
-      "GPLv3"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "0.7.9-24.el7"
-  },
-  {
-    "repo": "scientific_7x",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "0.7.9",
-    "licenses": [
-      "GPLv3"
-    ],
-    "summary": "Cloud instance init scripts",
-    "categories": [
-      "System Environment/Base"
-    ],
-    "status": "legacy",
-    "origversion": "0.7.9-24.el7_5.1"
   },
   {
     "repo": "scientific_7x",
@@ -3007,21 +3007,6 @@
   },
   {
     "repo": "trisquel_10_0",
-    "subrepo": "nabia-updates/main",
-    "srcname": "cloud-init",
-    "visiblename": "cloud-init",
-    "version": "21.3-1-g6803368d",
-    "maintainers": [
-      "ubuntu-devel-discuss@lists.ubuntu.com"
-    ],
-    "categories": [
-      "admin"
-    ],
-    "status": "outdated",
-    "origversion": "21.3-1-g6803368d-0ubuntu1~20.04.4"
-  },
-  {
-    "repo": "trisquel_10_0",
     "subrepo": "nabia/main",
     "srcname": "cloud-init",
     "visiblename": "cloud-init",
@@ -3034,6 +3019,21 @@
     ],
     "status": "legacy",
     "origversion": "20.1-10-g71af48df-0ubuntu5"
+  },
+  {
+    "repo": "trisquel_10_0",
+    "subrepo": "nabia-updates/main",
+    "srcname": "cloud-init",
+    "visiblename": "cloud-init",
+    "version": "21.3-1-g6803368d",
+    "maintainers": [
+      "ubuntu-devel-discuss@lists.ubuntu.com"
+    ],
+    "categories": [
+      "admin"
+    ],
+    "status": "outdated",
+    "origversion": "21.3-1-g6803368d-0ubuntu1~20.04.4"
   },
   {
     "repo": "trisquel_6_0",
