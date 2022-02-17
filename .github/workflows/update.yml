@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-  schedule:
+  # schedule:
   # - cron: 0 10-20 * * 1-5 # every hour in working hour of working day
-  - cron: 0 6 * * 1-5 # every working day 
+  # - cron: 0 6 * * 1-5 # every working day 
 
 jobs:
   build:    
